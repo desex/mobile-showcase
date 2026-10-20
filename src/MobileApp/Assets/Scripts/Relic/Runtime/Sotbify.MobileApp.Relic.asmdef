@@ -1,0 +1,26 @@
+{
+    "name": "Sotbify.MobileApp.Relic",
+    "rootNamespace": "Sotbify.MobileApp",
+    "references": [
+        "UniTask",
+        "Unity.InputSystem",
+        "Unity.Addressables",
+        "Sotbifay.Images",
+        "Sotbify.MobileApp.Db",
+        "Sotbify.MobileApp.Assets",
+        "Sotbify.MobileApp.ItemRenderer",
+        "Sotbifay.MobileApp.Logger"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "R3.dll",
+        "Sirenix.OdinInspector.Attributes.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

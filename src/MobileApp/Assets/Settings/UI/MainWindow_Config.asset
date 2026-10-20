@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd73ad3993ab46598ac73824f868bedd, type: 3}
+  m_Name: MainWindow_Config
+  m_EditorClassIdentifier: 
+  <FeedPreloadIndent>k__BackingField: 0.1
+  <MoveRange>k__BackingField: {x: -7, y: 7}
+  <RotationRange>k__BackingField: {x: 0, y: 10}
+  <MotionDurationRange>k__BackingField: {x: 1.2, y: 2}
+  <DelayBetweenMotions>k__BackingField: 0
+  <MoveEase>k__BackingField: 6
+  <ScrollMotionParameters>k__BackingField:
+    Time: 0.2
+    Ease: 14

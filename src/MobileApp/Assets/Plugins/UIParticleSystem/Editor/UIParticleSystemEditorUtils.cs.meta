@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: c364e9ebf91074941b6a941e8ec74ed4
+AssetOrigin:
+  serializedVersion: 1
+  productId: 337750
+  packageName: 'UI Particle System: Native Canvas VFX'
+  packageVersion: 4.2.0
+  assetPath: Assets/Plugins/UIParticleSystem/Editor/UIParticleSystemEditorUtils.cs
+  uploadId: 996276

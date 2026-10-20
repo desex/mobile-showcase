@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: NewRelicWindow
+  m_EditorClassIdentifier: 
+  m_GroupName: NewRelicWindow
+  m_GUID: f47e87221db4a364ba00bf1870ef0dcc
+  m_SerializeEntries:
+  - m_GUID: c5663a53f1efcbf4c955eaa0364596a8
+    m_Address: NewRelicWindowView
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fbfb1f83be36e5841aff22f669caaa53
+    m_Address: NewRelicWindow
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: a531a492de590e2419d23b2b29bc631e, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: d4249465c91d18e4d8722975ef38dc6b, type: 2}
+    - {fileID: 11400000, guid: d34e68d7511a3fa46866b2a3ca100ce0, type: 2}

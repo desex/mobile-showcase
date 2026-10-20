@@ -1,0 +1,29 @@
+{
+    "name": "Sotbify.MobileApp.FeedWindow",
+    "rootNamespace": "Sotbify.MobileApp",
+    "references": [
+        "Sotbify.MobileApp.UI.Window",
+        "R3.Unity",
+        "VContainer",
+        "UniTask",
+        "OSA.Core",
+        "Sotbify.MobileApp.Common.OSA",
+        "Sotbifay.MobileApp.Logger",
+        "Sotbify.MobileApp.Utils",
+        "Sotbify.MobileApp.Services.Browser",
+        "Sotbify.MobileApp.UI.Common"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "R3.dll",
+        "ObservableCollections.R3.dll",
+        "ObservableCollections.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

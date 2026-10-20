@@ -1,0 +1,287 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "definitions": {
+    "Host": {
+      "type": "string",
+      "enum": [
+        "AppVeyor",
+        "AzurePipelines",
+        "Bamboo",
+        "Bitbucket",
+        "Bitrise",
+        "GitHubActions",
+        "GitLab",
+        "Jenkins",
+        "Rider",
+        "SpaceAutomation",
+        "TeamCity",
+        "Terminal",
+        "TravisCI",
+        "VisualStudio",
+        "VSCode"
+      ]
+    },
+    "ExecutableTarget": {
+      "type": "string",
+      "enum": [
+        "ArchiveIOSXcode",
+        "BuildAndDeploy",
+        "BuildAndroidUnity",
+        "BuildIOSAndDeploy",
+        "BuildIOSAndSave",
+        "BuildIOSUnity",
+        "BuildIOSXcode",
+        "ChangeSettingFiles",
+        "CleanArtifacts",
+        "CleanUnityProject",
+        "Deploy",
+        "ExportIOSIpa",
+        "IncrementVersion",
+        "IncrementVersionAndPush",
+        "InstallIOSPods",
+        "RestoreNuGetPackages",
+        "RestoreSettingFiles",
+        "RunEditorTests",
+        "UploadIOSToTestFlight",
+        "ValidateXcodeInstallation"
+      ]
+    },
+    "Verbosity": {
+      "type": "string",
+      "description": "",
+      "enum": [
+        "Verbose",
+        "Normal",
+        "Minimal",
+        "Quiet"
+      ]
+    },
+    "NukeBuild": {
+      "properties": {
+        "Continue": {
+          "type": "boolean",
+          "description": "Indicates to continue a previously failed build attempt"
+        },
+        "Help": {
+          "type": "boolean",
+          "description": "Shows the help text for this build assembly"
+        },
+        "Host": {
+          "description": "Host for execution. Default is 'automatic'",
+          "$ref": "#/definitions/Host"
+        },
+        "NoLogo": {
+          "type": "boolean",
+          "description": "Disables displaying the NUKE logo"
+        },
+        "Partition": {
+          "type": "string",
+          "description": "Partition to use on CI"
+        },
+        "Plan": {
+          "type": "boolean",
+          "description": "Shows the execution plan (HTML)"
+        },
+        "Profile": {
+          "type": "array",
+          "description": "Defines the profiles to load",
+          "items": {
+            "type": "string"
+          }
+        },
+        "Root": {
+          "type": "string",
+          "description": "Root directory during build execution"
+        },
+        "Skip": {
+          "type": "array",
+          "description": "List of targets to be skipped. Empty list skips all dependencies",
+          "items": {
+            "$ref": "#/definitions/ExecutableTarget"
+          }
+        },
+        "Target": {
+          "type": "array",
+          "description": "List of targets to be invoked. Default is '{default_target}'",
+          "items": {
+            "$ref": "#/definitions/ExecutableTarget"
+          }
+        },
+        "Verbosity": {
+          "description": "Logging verbosity during build execution. Default is 'Normal'",
+          "$ref": "#/definitions/Verbosity"
+        }
+      }
+    }
+  },
+  "allOf": [
+    {
+      "properties": {
+        "AndroidAliasName": {
+          "type": "string",
+          "description": "Android alias name"
+        },
+        "AndroidAliasPassword": {
+          "type": "string",
+          "description": "Android alias password"
+        },
+        "AndroidKeystorePassword": {
+          "type": "string",
+          "description": "Android keystore password"
+        },
+        "AppStoreConnectApiIssuerId": {
+          "type": "string",
+          "description": "App Store Connect API issuer id",
+          "default": "Secrets must be entered via 'nuke :secrets [profile]'"
+        },
+        "AppStoreConnectApiKeyId": {
+          "type": "string",
+          "description": "App Store Connect API key id",
+          "default": "Secrets must be entered via 'nuke :secrets [profile]'"
+        },
+        "BuildPrefix": {
+          "type": "string",
+          "description": "Prefix added before the build name"
+        },
+        "BuildSuffix": {
+          "type": "string",
+          "description": "Suffix added after the build name"
+        },
+        "BuildTarget": {
+          "type": "string",
+          "description": "Build target",
+          "enum": [
+            "Android",
+            "Bratwurst",
+            "CloudRendering",
+            "iOS",
+            "Linux",
+            "Linux64",
+            "LinuxHeadlessSimulation",
+            "LinuxUniversal",
+            "N3DS",
+            "OSXUniversal",
+            "PS4",
+            "PS5",
+            "PSM",
+            "PSP2",
+            "SamsungTV",
+            "Stadia",
+            "standalone",
+            "StandaloneLinux",
+            "StandaloneLinux64",
+            "StandaloneLinuxUniversal",
+            "StandaloneOSX",
+            "StandaloneOSXIntel",
+            "StandaloneOSXIntel64",
+            "StandaloneOSXUniversal",
+            "StandaloneWindows",
+            "StandaloneWindows64",
+            "Switch",
+            "Tizen",
+            "tvOS",
+            "Web",
+            "WebGL",
+            "WebStreamed",
+            "WiiU",
+            "Win",
+            "Win64",
+            "WindowsStoreApps",
+            "WSAPlayer",
+            "XboxOne"
+          ]
+        },
+        "BuildType": {
+          "type": "string",
+          "description": "Build type",
+          "enum": [
+            "Debug",
+            "Release"
+          ]
+        },
+        "CrmBaseUrl": {
+          "type": "string",
+          "description": "CRM base url",
+          "default": "Secrets must be entered via 'nuke :secrets [profile]'"
+        },
+        "CrmPassword": {
+          "type": "string",
+          "description": "CRM password",
+          "default": "Secrets must be entered via 'nuke :secrets [profile]'"
+        },
+        "CrmUsername": {
+          "type": "string",
+          "description": "CRM username",
+          "default": "Secrets must be entered via 'nuke :secrets [profile]'"
+        },
+        "Defines": {
+          "type": "array",
+          "description": "Defines to add",
+          "items": {
+            "type": "string"
+          }
+        },
+        "IOSAllowProvisioningUpdates": {
+          "type": "boolean",
+          "description": "Allow Xcode provisioning updates"
+        },
+        "IOSApsEnvironment": {
+          "type": "string",
+          "description": "iOS APS environment (development/production)"
+        },
+        "IOSExportMethod": {
+          "type": "string",
+          "description": "iOS export method"
+        },
+        "IOSPackageName": {
+          "type": "string",
+          "description": "Package name"
+        },
+        "IOSTeamID": {
+          "type": "string",
+          "description": "iOS team id"
+        },
+        "IOSXcodeConfiguration": {
+          "type": "string",
+          "description": "iOS Xcode build configuration"
+        },
+        "IOSXcodeScheme": {
+          "type": "string",
+          "description": "iOS Xcode scheme"
+        },
+        "PartnerName": {
+          "type": "string",
+          "description": "Partner name"
+        },
+        "RemoveDefines": {
+          "type": "array",
+          "description": "Defines to remove",
+          "items": {
+            "type": "string"
+          }
+        },
+        "ShouldIncrement": {
+          "type": "boolean",
+          "description": "Should increment version"
+        },
+        "UnityPassword": {
+          "type": "string",
+          "description": "Unity password",
+          "default": "Secrets must be entered via 'nuke :secrets [profile]'"
+        },
+        "UnitySerial": {
+          "type": "string",
+          "description": "Unity serial",
+          "default": "Secrets must be entered via 'nuke :secrets [profile]'"
+        },
+        "UnityUsername": {
+          "type": "string",
+          "description": "Unity username"
+        }
+      }
+    },
+    {
+      "$ref": "#/definitions/NukeBuild"
+    }
+  ]
+}

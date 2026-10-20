@@ -1,0 +1,14 @@
+{
+    "name": "Sotbify.MobileApp.Com.Preferences",
+    "rootNamespace": "Sotbify.MobileApp",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

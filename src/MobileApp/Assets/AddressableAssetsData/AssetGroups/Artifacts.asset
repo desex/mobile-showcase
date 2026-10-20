@@ -1,0 +1,153 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Artifacts
+  m_EditorClassIdentifier: 
+  m_GroupName: Artifacts
+  m_GUID: fc0b436c103fe4a428b515829fb410fc
+  m_SerializeEntries:
+  - m_GUID: 058928fb23d03384583d466302a96267
+    m_Address: LuckySeven
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1a14048f9549b3a4b91700cad00ec4ee
+    m_Address: GoldenBassRising
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 26c7ec991c35b934f9eea583199abe5d
+    m_Address: AzureWingedScarab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2d6249f6ad1e72541b0394ff52d747af
+    m_Address: NeonEagle
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 31137e43d9be2164da3b7ad81f91d12b
+    m_Address: PrismaticStarflower
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 35f0236ed79605640a3eebd0cf00bb40
+    m_Address: FeatheredFishingHook
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3b5d21379e77ccc47bb02a0d9bea83fe
+    m_Address: OrnateEmeraldOrb
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 52dac106b33f9514b87117cfe926cf6c
+    m_Address: OrnateGoldEdgedHor
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 53e228c68dab6e44781bafe97e7424cc
+    m_Address: PawprintBone
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5d40c282f594af34f9777b2d7307a3d8
+    m_Address: PinkPeppermintCandy
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 677c133e1a0b52a44802ef40e2875b38
+    m_Address: GoldenThunderbolt
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 677c87b1150d0a54c9bc183a20f7aa86
+    m_Address: AzureLaurelEmblem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 68a3008684f996844be94b7387e2e6be
+    m_Address: AzureAnkhOfEternit
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 711522076a7ca4d4e8d173a5f7c0be71
+    m_Address: Artifacts
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7ceaf91b1b5af9d429f1b7e35bd80642
+    m_Address: EmeraldSunMedallion
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7d26a93f790d02e46b4f4ecf3dd5399d
+    m_Address: EmeraldGearwand
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8b579466c41de7e4baeddc4bf1f264fd
+    m_Address: SilverSpiralTop
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 90b33a472bdecd645964251e6158a9e1
+    m_Address: Logo
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9af03d0000661c9479be3823fb1f3618
+    m_Address: EmeraldGuardian
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b278858a432480d4fabd9f7e9a2bdcd4
+    m_Address: CrimsonPrybar
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b27ddc6ebaa2756459ff667d19c7446b
+    m_Address: AzureLionCrest
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b2fbabf8017a37346ae76ac43de70b3b
+    m_Address: PawprintCottage
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b47e501c287c4574da2a0ca607bc5fa2
+    m_Address: EmeraldHexRing
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cc2f79f75bae57d42bda6f45033d9dba
+    m_Address: LionOfResolve
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d687903d1e3301e44823be6272d7b03f
+    m_Address: ArcaneReliquary
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: da73f85eeb1b6b647afb89aeff5b4689
+    m_Address: GlossyCherries
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: a531a492de590e2419d23b2b29bc631e, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 50037e27f91d6dd49996c692a628230b, type: 2}
+    - {fileID: 11400000, guid: 2add2427f4e4da7408071bce325d8951, type: 2}

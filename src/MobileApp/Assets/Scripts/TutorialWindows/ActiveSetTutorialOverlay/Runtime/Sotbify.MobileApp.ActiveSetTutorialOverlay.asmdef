@@ -1,0 +1,26 @@
+{
+    "name": "Sotbify.MobileApp.ActiveSetTutorialOverlay",
+    "rootNamespace": "Sotbify.MobileApp",
+    "references": [
+        "VContainer",
+        "Sotbify.MobileApp.UI.Window",
+        "R3.Unity",
+        "UniTask",
+        "Sotbify.MobileApp.Db",
+        "Sotbify.MobileApp.Nexus",
+        "Sotbify.MobileApp.Utils",
+        "Sotbify.MobileApp.RelicsMoreTutorialInfo",
+        "Sotbify.MobileApp.UI.Common",
+        "Sotbifay.MobileApp.Logger",
+        "LitMotion"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

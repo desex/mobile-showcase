@@ -1,0 +1,29 @@
+{
+    "name": "Sotbify.MobileApp.RelicsTutorialOverlay",
+    "rootNamespace": "Sotbify.MobileApp",
+    "references": [
+        "VContainer",
+        "Sotbify.MobileApp.UI.Window",
+        "R3.Unity",
+        "UniTask",
+        "Sotbify.MobileApp.Db",
+        "Sotbify.MobileApp.Nexus",
+        "Sotbify.MobileApp.Utils",
+        "Sotbify.MobileApp.RelicsMoreTutorialInfo",
+        "Sotbify.MobileApp.UI.Common",
+        "Sotbifay.MobileApp.Logger",
+        "LitMotion",
+        "Sotbifay.Spotlight"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "R3.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,17 @@
+{
+    "name": "Sotbify.MobileApp.Services.TutorialService",
+    "rootNamespace": "Sotbify.MobileApp",
+    "references": [
+        "GUID:fd21b916846246449cd40706950782ed",
+        "GUID:ca4b343e7c024474a58e266afde715df"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

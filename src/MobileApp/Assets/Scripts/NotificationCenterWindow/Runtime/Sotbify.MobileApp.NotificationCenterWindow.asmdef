@@ -1,0 +1,36 @@
+﻿{
+    "name": "Sotbify.MobileApp.NotificationCenterWindow",
+    "rootNamespace": "Sotbify.MobileApp",
+    "references": [
+        "Sotbify.MobileApp.UI.Window",
+        "UniTask",
+        "VContainer",
+        "Unity.TextMeshPro",
+        "Unity.Localization",
+        "R3.Unity",
+        "Sotbify.MobileApp.Utils",
+        "OSA.Core",
+        "Sotbifay.MobileApp.Logger",
+        "Sotbify.MobileApp.Common.OSA",
+        "Sotbify.MobileApp.Server",
+        "Sotbify.MobileApp.Db",
+        "Sotbify.MobileApp.Common.SerializableDictionary",
+        "LitMotion.Animation",
+        "Sotbify.MobileApp.Localization",
+        "Sotbify.MobileApp.ServerConstConverter",
+        "Sotbify.MobileApp.TextureProvider"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "R3.dll",
+        "ObservableCollections.R3.dll",
+        "ObservableCollections.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

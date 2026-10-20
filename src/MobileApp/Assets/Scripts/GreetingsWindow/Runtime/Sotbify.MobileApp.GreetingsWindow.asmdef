@@ -1,0 +1,30 @@
+{
+    "name": "Sotbify.MobileApp.GreetingsWindow",
+    "rootNamespace": "Sotbify.MobileApp",
+    "references": [
+        "Sotbify.MobileApp.UI.Window",
+        "UniTask",
+        "VContainer",
+        "Sotbify.MobileApp.Db",
+        "LitMotion",
+        "LitMotion.Extensions",
+        "LitMotion.Animation",
+        "Sotbify.MobileApp.Utils",
+        "R3.Unity",
+        "Sotbify.MobileApp.UI.Common",
+        "Unity.TextMeshPro",
+        "Sotbify.MobileApp.Common.AssetsProvider",
+        "Sotbify.MobileApp.UI.GeneralElements.Arrow",
+        "Sotbifay.MobileApp.SnapScroll",
+        "Sotbifay.MobileApp.CounterCircle"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

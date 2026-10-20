@@ -1,0 +1,17 @@
+{
+    "name": "Sotbify.MobileApp.FirebaseCM",
+    "rootNamespace": "Sotbify.MobileApp",
+    "references": [
+        "UniTask",
+        "Sotbify.MobileApp.Utils"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

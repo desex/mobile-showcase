@@ -1,0 +1,18 @@
+{
+    "name": "Sotbify.MobileApp.Services.Browser",
+    "rootNamespace": "Sotbify.MobileApp",
+    "references": [
+        "UniTask",
+        "Sotbifay.MobileApp.WebView",
+        "Sotbifay.MobileApp.Logger"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

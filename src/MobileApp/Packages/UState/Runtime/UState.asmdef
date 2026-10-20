@@ -1,0 +1,23 @@
+{
+    "name": "UState",
+    "rootNamespace": "UState",
+    "references": [
+        "UniTask",
+        "VContainer"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "jp.hadashikick.vcontainer",
+            "expression": "1.16.9",
+            "define": "VCONTAINER_SUPPORT"
+        }
+    ],
+    "noEngineReferences": false
+}

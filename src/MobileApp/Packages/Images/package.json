@@ -1,0 +1,14 @@
+{
+  "displayName": "Sotbifay Images",
+  "name": "com.sotbifay.images",
+  "version": "1.0.4",
+  "unity": "6000.0",
+  "category": "Libraries",
+  "dependencies": {
+    "com.cysharp.unitask": "2.5.10",
+    "com.gilzoide.sqlite-net": "1.3.2"
+  },
+  "author": {
+    "name": "Sotbifay"
+  }
+}

@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: FAQWindow
+  m_EditorClassIdentifier: 
+  m_GroupName: FAQWindow
+  m_GUID: df90d81044699794baabde48456c3991
+  m_SerializeEntries:
+  - m_GUID: 1510a5be3d959214aab7fe248f0f2216
+    m_Address: QuestionsList
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3404f50b08e71fa4ebe40d158c39a18f
+    m_Address: CommonFAQ
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 395aec01cc5f78b4485a4eb3129e581c
+    m_Address: FAQItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3e2f2b10be9392f4d8fbef865bcdead0
+    m_Address: CloseButton
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6b8e73af25ee18248a60a1901449c8a2
+    m_Address: FAQView
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6d5576be6bd97854d93abe7065cf515e
+    m_Address: FAQContentView
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6d73f8bd4bb5ad246bf4a30258fb6ee3
+    m_Address: HelmetControllerFAQ
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a6babe76ce7ca7b49bed254a6a35e133
+    m_Address: StripFAQ
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a8bb9b7decdbc1646a616ff0a781c9e5
+    m_Address: CinemaFAQ
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ac5254ab1c45a524a9bff0abc286b319
+    m_Address: BrowserFAQ
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b81eb462ea162e048af5f105328a0ed4
+    m_Address: ManagerFAQ
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c50a1222aa145994aaa5e49e489a813e
+    m_Address: VRSlotsFAQ
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cecd28e4ce9dda441b3a11ab47b32c09
+    m_Address: VRVideoFAQ
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d173b585ad01ac84aab9e5fe80e80def
+    m_Address: EnvironmentFAQ
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e1f18e25c82495a44a2e1b5b620ef4e9
+    m_Address: JoystickFAQ
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ee08a6adb6ad49a40bd6221748d77619
+    m_Address: ChatFAQ
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f9d184b7289162f46b91911a859e4e04
+    m_Address: MainPageFAQ
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: a531a492de590e2419d23b2b29bc631e, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 6473fa8d1ccfcc948aab5d958d1a3925, type: 2}
+    - {fileID: 11400000, guid: 404d44afe6b9b6442bfdf84d0f424293, type: 2}

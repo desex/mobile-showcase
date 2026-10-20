@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: NotificationCenterWindow_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: a686527c066239a478d585553eb24d6a, type: 2}
+  m_Metadata:
+    m_Items:
+    - rid: 2457945104419127398
+  m_TableData:
+  - m_Id: 1011795222528
+    m_Localized: 
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49637509071708160
+    m_Localized: 
+    m_Metadata:
+      m_Items:
+      - rid: 2457945104419127398
+  - m_Id: 51061520557219840
+    m_Localized: 
+    m_Metadata:
+      m_Items:
+      - rid: 2457945104419127398
+  references:
+    version: 2
+    RefIds:
+    - rid: 2457945104419127398
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 
+        m_SharedEntries:
+        - id: 49637509071708160
+        - id: 51061520557219840

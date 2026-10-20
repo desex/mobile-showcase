@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: ScanWindow Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: ScanWindow
+  m_TableCollectionNameGuidString: 0db32d57f5a470c4fbfd654dd0068c45
+  m_Entries:
+  - m_Id: 2026284920832
+    m_Key: closeButton.text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113392254704541696
+    m_Key: giveAccessHeader.text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113392345209233408
+    m_Key: giveAccessDescription.text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113392869404958720
+    m_Key: failedAccessHeader.text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113392931837173760
+    m_Key: failedAccessDescription.text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113400772065091584
+    m_Key: notNow.text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113401152740122624
+    m_Key: allowAccessButton.text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113403449872343040
+    m_Key: openSettings.text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113406815126020096
+    m_Key: scanWaitedHeader.text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113406862806867968
+    m_Key: scanWaitedDescription.text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113408254921531392
+    m_Key: scanAccessGrantedHeader.text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113408351633793024
+    m_Key: scanAccessGrantedDescription.text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113408437969346560
+    m_Key: scanAccessDeniedHeader.text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113408478083670016
+    m_Key: scanAccessDeniedDescription.text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113408514569920512
+    m_Key: scanAccessAPIDeniedHeader.text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113408581582315520
+    m_Key: scanAccessAPIDeniedDescription.text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113410563390955520
+    m_Key: tryAgain.text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113718703999279104
+    m_Key: scanProceedHeader.text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113718851676528640
+    m_Key: scanProceedDescription.text
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 8502883581406740819
+  references:
+    version: 2
+    RefIds:
+    - rid: 8502883581406740819
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1764253032917

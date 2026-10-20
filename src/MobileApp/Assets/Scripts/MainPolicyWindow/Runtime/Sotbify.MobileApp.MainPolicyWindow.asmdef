@@ -1,0 +1,26 @@
+{
+    "name": "Sotbify.MobileApp.MainPolicyWindow",
+    "rootNamespace": "",
+    "references": [
+        "Sotbify.MobileApp.UI.Window",
+        "R3.Unity",
+        "Sotbifay.MobileApp.WebView",
+        "VContainer",
+        "UniTask",
+        "Sotbify.MobileApp.CasinoWindow",
+        "Sotbify.MobileApp.Common.SerializableDictionary",
+        "Sotbify.MobileApp.Services.Browser",
+        "Sotbify.MobileApp.RemoteConfig"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "R3.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

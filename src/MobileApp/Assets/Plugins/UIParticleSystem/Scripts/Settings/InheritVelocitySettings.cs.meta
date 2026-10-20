@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: b8e4c2a17f6d49c0a3e5d8b1c4f60789
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 337750
+  packageName: 'UI Particle System: Native Canvas VFX'
+  packageVersion: 4.2.0
+  assetPath: Assets/Plugins/UIParticleSystem/Scripts/Settings/InheritVelocitySettings.cs
+  uploadId: 996276

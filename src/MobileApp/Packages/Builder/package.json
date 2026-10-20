@@ -1,0 +1,13 @@
+{
+  "displayName": "Sotbifay Builder",
+  "name": "com.sotbifay.builder",
+  "version": "1.4.2",
+  "unity": "6000.0",
+  "category": "Libraries",
+  "dependencies": {
+    "com.unity.nuget.newtonsoft-json": "3.2.1"
+  },
+  "author": {
+    "name": "Sotbifay"
+  }
+}

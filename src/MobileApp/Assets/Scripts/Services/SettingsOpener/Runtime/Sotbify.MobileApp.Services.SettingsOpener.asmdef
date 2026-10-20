@@ -1,0 +1,19 @@
+{
+    "name": "Sotbify.MobileApp.Services.SettingsOpener",
+    "rootNamespace": "Sotbify.MobileApp",
+    "references": [
+        "Sotbify.MobileApp.Plugins.MyNativeBindings",
+        "Sotbifay.MobileApp.Logger"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [
+        ""
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

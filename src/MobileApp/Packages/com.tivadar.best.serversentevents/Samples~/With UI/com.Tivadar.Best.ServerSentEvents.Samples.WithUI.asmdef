@@ -1,0 +1,17 @@
+{
+    "name": "com.Tivadar.Best.ServerSentEvents.Samples.WithUI",
+    "rootNamespace": "Best.ServerSentEvents.Samples",
+    "references": [
+        "GUID:9069ac25d95ca17448a247f3bb1c769f",
+        "GUID:3a7acb47661a3834a8059a91722b9e04"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

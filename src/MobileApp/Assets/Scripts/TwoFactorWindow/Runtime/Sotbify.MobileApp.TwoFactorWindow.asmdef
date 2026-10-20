@@ -1,0 +1,19 @@
+{
+    "name": "Sotbify.MobileApp.TwoFactorWindow",
+    "rootNamespace": "Sotbify.MobileApp",
+    "references": [
+        "Sotbify.MobileApp.UI.Window",
+        "VContainer",
+        "R3.Unity",
+        "Sotbify.MobileApp.PinPassword"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

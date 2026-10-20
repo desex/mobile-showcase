@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: f74251eef1601d547a4520a100d60417
+AssetOrigin:
+  serializedVersion: 1
+  productId: 337750
+  packageName: 'UI Particle System: Native Canvas VFX'
+  packageVersion: 4.2.0
+  assetPath: Assets/Plugins/UIParticleSystem/Scripts/Settings/ParticleEventArgs.cs
+  uploadId: 996276

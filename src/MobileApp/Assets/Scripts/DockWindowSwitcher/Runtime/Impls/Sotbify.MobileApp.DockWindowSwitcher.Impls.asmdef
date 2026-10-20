@@ -1,0 +1,22 @@
+{
+    "name": "Sotbify.MobileApp.DockWindowSwitcher.Impls",
+    "rootNamespace": "Sotbify.MobileApp",
+    "references": [
+        "Sotbify.MobileApp.Utils",
+        "Sotbify.MobileApp.ApplicationUI",
+        "UState",
+        "VContainer",
+        "Sotbify.MobileApp.DockWindowSwitcher",
+        "Sotbify.MobileApp.Services.BlurConfigSwitcher",
+        "Sotbifay.MobileApp.Logger"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

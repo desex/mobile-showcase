@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: NotificationCenterWindow Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: NotificationCenterWindow
+  m_TableCollectionNameGuidString: a686527c066239a478d585553eb24d6a
+  m_Entries:
+  - m_Id: 1011795222528
+    m_Key: header.text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49637509071708160
+    m_Key: unreadCount.text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 51061520557219840
+    m_Key: createdAt.text
+    m_Metadata:
+      m_Items:
+      - rid: 2457945170493833464
+      - rid: 2457945170493833465
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 6609286854972801415
+  references:
+    version: 2
+    RefIds:
+    - rid: 2457945170493833464
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: "{value.Elapsed.TotalSeconds:cond:\r\n    >=86400?{value:dd.MM.yyyy
+          HH:mm}|\r\n    >=3600?{value.Elapsed.Hours:plural:{} hour|{} hours} ago|\r\n   
+          >=60?{value.Elapsed.Minutes:plural:{} minute|{} minutes} ago|\r\n    {value.Elapsed.Seconds:plural:{}
+          second|{} seconds} ago\r\n}"
+    - rid: 2457945170493833465
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: "{value.Elapsed.TotalSeconds:cond:\r\n    >=86400?{value:dd.MM.yyyy
+          HH:mm}|\r\n    >=3600?{value.Elapsed.Hours:plural:{} \u0447\u0430\u0441|{}
+          \u0447\u0430\u0441\u0430|{} \u0447\u0430\u0441\u043E\u0432} \u043D\u0430\u0437\u0430\u0434|\r\n   
+          >=60?{value.Elapsed.Minutes:plural:{} \u043C\u0438\u043D\u0443\u0442\u0443|{}
+          \u043C\u0438\u043D\u0443\u0442\u044B|{} \u043C\u0438\u043D\u0443\u0442}
+          \u043D\u0430\u0437\u0430\u0434|\r\n    {value.Elapsed.Seconds:plural:{}
+          \u0441\u0435\u043A\u0443\u043D\u0434\u0443|{} \u0441\u0435\u043A\u0443\u043D\u0434\u044B|{}
+          \u0441\u0435\u043A\u0443\u043D\u0434} \u043D\u0430\u0437\u0430\u0434\r\n}"
+    - rid: 6609286854972801415
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1779100516796

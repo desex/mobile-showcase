@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2f049db4d9325754bb38679a8a83bdc6
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 337750
+  packageName: 'UI Particle System: Native Canvas VFX'
+  packageVersion: 4.2.0
+  assetPath: Assets/Plugins/UIParticleSystem/Resources/Additive_UIParticleSystem.mat
+  uploadId: 996276

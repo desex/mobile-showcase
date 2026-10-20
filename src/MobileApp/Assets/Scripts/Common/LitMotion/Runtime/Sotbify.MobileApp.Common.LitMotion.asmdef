@@ -1,0 +1,19 @@
+{
+    "name": "Sotbify.MobileApp.Common.LitMotion",
+    "rootNamespace": "Sotbify.MobileApp",
+    "references": [
+        "LitMotion",
+        "LitMotion.Extensions",
+        "LitMotion.Animation",
+        "TierStudios.UIParticleSystem"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

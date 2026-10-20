@@ -1,0 +1,32 @@
+{
+    "name": "Sotbify.MobileApp.Server",
+    "rootNamespace": "Sotbify.MobileApp",
+    "references": [
+        "UniTask",
+        "VContainer",
+        "R3.Unity",
+        "com.Tivadar.Best.ServerSentEvents",
+        "com.Tivadar.Best.HTTP",
+        "Sotbify.MobileApp.Utils",
+        "Sotbify.MobileApp.Common.Preferences",
+        "Sotbifay.MobileApp.Logger",
+        "Sotbify.MobileApp.FirebaseCM",
+        "Sotbify.MobileApp.Db",
+        "Sotbify.MobileApp.RemoteConfig",
+        "Sotbify.MobileApp.Localization"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [
+        "Newtonsoft.Json.dll",
+        "UriBuilder.Fluent.dll",
+        "Microsoft.Extensions.Logging.dll",
+        "ZLogger.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

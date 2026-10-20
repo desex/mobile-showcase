@@ -1,0 +1,33 @@
+{
+    "name": "Sotbify.MobileApp.ProfileWindow",
+    "rootNamespace": "Sotbify.MobileApp",
+    "references": [
+        "Sotbify.MobileApp.UI.Window",
+        "R3.Unity",
+        "VContainer",
+        "UniTask",
+        "OSA.Core",
+        "Sotbify.MobileApp.Common.OSA",
+        "Sotbifay.MobileApp.Logger",
+        "Sotbify.MobileApp.Utils",
+        "Unity.TextMeshPro",
+        "Unity.Localization",
+        "Sotbify.MobileApp.Server",
+        "Sotbify.MobileApp.TextureProvider",
+        "LitMotion.Animation",
+        "Sotbify.MobileApp.Localization"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "R3.dll",
+        "ObservableCollections.R3.dll",
+        "ObservableCollections.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

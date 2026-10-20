@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc34ff85762e44389176e09a4bc3e46a, type: 3}
+  m_Name: GreetingsScreen_Config
+  m_EditorClassIdentifier: 
+  <TargetButtonOffset>k__BackingField: -12
+  <ButtonMotionParameters>k__BackingField:
+    Time: 0.2
+    Ease: 0
+  <ScrollingMotionParameters>k__BackingField:
+    Time: 0.3
+    Ease: 0
+  <SnapScrollMotionParameters>k__BackingField:
+    Time: 0.2
+    Ease: 14

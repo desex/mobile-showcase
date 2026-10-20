@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: b5c214c24c7349b49adb9ee6a0819dc7
+AssetOrigin:
+  serializedVersion: 1
+  productId: 337750
+  packageName: 'UI Particle System: Native Canvas VFX'
+  packageVersion: 4.2.0
+  assetPath: Assets/Plugins/UIParticleSystem/Scripts/Managers/VelocityOverLifetimeManager.cs
+  uploadId: 996276

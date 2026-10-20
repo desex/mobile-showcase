@@ -1,0 +1,19 @@
+{
+    "name": "Sotbify.MobileApp.VideoPlayer",
+    "rootNamespace": "Sotbify.MobileApp",
+    "references": [
+        "UniTask",
+        "AVProVideo.Runtime"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "R3.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,34 @@
+{
+    "name": "Sotbify.MobileApp.Stab.ChatWindow",
+    "rootNamespace": "",
+    "references": [
+        "R3.Unity",
+        "UniTask",
+        "Sotbify.MobileApp.UI.Window",
+        "Sotbify.MobileApp.Chat",
+        "Sotbifay.MobileApp.Logger",
+        "Sotbify.MobileApp.Server",
+        "Sotbify.MobileApp.Utils",
+        "Sotbify.MobileApp.Db",
+        "Sotbify.MobileApp.Common.OSA",
+        "OSA.Core",
+        "VContainer",
+        "Sotbify.MobileApp.TextureProvider",
+        "Unity.TextMeshPro",
+        "Sotbify.MobileApp.Plugins.KeyboardHeight",
+        "Sotbify.MobileApp.ChatMessages"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "R3.dll",
+        "ObservableCollections.R3.dll",
+        "ObservableCollections.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

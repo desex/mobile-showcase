@@ -1,0 +1,22 @@
+{
+    "name": "Sotbify.MobileApp.PinCreationWindow",
+    "rootNamespace": "Sotbify.MobileApp",
+    "references": [
+        "Sotbify.MobileApp.UI.Window",
+        "VContainer",
+        "R3.Unity",
+        "Unity.TextMeshPro",
+        "UniTask",
+        "Sotbify.MobileApp.PinPassword",
+        "Sotbifay.MobileApp.Logger"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

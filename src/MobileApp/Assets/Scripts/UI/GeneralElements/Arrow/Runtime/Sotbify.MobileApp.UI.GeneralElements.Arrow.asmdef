@@ -1,0 +1,19 @@
+{
+    "name": "Sotbify.MobileApp.UI.GeneralElements.Arrow",
+    "rootNamespace": "Sotbify.MobileApp",
+    "references": [
+        "LitMotion",
+        "UniTask",
+        "Sotbify.MobileApp.Db",
+        "Sotbify.MobileApp.Utils"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

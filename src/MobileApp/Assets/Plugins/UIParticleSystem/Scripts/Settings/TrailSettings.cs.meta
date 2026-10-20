@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 0babe1ee365631749bda8672daa1ac6f
+AssetOrigin:
+  serializedVersion: 1
+  productId: 337750
+  packageName: 'UI Particle System: Native Canvas VFX'
+  packageVersion: 4.2.0
+  assetPath: Assets/Plugins/UIParticleSystem/Scripts/Settings/TrailSettings.cs
+  uploadId: 996276

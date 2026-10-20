@@ -1,0 +1,26 @@
+{
+    "name": "Sotbify.MobileApp.ProfileCharacterChoose",
+    "rootNamespace": "Sotbify.MobileApp",
+    "references": [
+        "Sotbify.MobileApp.UI.Window",
+        "VContainer",
+        "UniTask",
+        "Sotbify.MobileApp.Server",
+        "Sotbify.MobileApp.Utils",
+        "R3.Unity",
+        "Unity.TextMeshPro",
+        "LitMotion.Animation",
+        "Sotbify.MobileApp.TextureProvider",
+        "Sotbifay.MobileApp.Logger",
+        "Sotbify.MobileApp.Localization"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": ["R3.dll"],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

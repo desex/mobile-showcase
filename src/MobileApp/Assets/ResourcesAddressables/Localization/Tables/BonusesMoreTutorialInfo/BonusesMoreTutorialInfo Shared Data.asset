@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: BonusesMoreTutorialInfo Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: BonusesMoreTutorialInfo
+  m_TableCollectionNameGuidString: a378fb0bf975ba342826e78f867f79a5
+  m_Entries:
+  - m_Id: 26049765376
+    m_Key: 1blockHeader.text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 274713272320
+    m_Key: 1blockDescription.text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626028175360
+    m_Key: 2blockConditionsHeader.text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 698975510528
+    m_Key: 2blockConditionsDescriiption.text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 733591101440
+    m_Key: 2blockHeader.text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 781951426560
+    m_Key: 2blockDescriiption.text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 820580966400
+    m_Key: 3blockHeader.text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 844442361856
+    m_Key: 3blockDescription.text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1053452918784
+    m_Key: 4blockHeader.text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1103428050944
+    m_Key: 4blockDescription.text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5080018313216
+    m_Key: close.button
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11062878396416
+    m_Key: bonusItemDescription.text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11112127913984
+    m_Key: bonusItemTitle.text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11239437623296
+    m_Key: bonusItemType.text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11290629103616
+    m_Key: 1bonusItemLine.text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11339022983168
+    m_Key: 2bonusItemLine.text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11366982213632
+    m_Key: 3bonusItemLine.text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11385680420864
+    m_Key: 4bonusItemLine.text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11413274746880
+    m_Key: rulesAndConditions.text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11460762656768
+    m_Key: promo.ttext
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 1543239660839632896
+  references:
+    version: 2
+    RefIds:
+    - rid: 1543239660839632896
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1791964137183

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: NewsContentWindow Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: NewsContentWindow
+  m_TableCollectionNameGuidString: 7bb2108265dfa0540a1b31c313e88d37
+  m_Entries:
+  - m_Id: 27355131904
+    m_Key: backButton.text
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 1600726412809732183
+  references:
+    version: 2
+    RefIds:
+    - rid: 1600726412809732183
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1765284895403

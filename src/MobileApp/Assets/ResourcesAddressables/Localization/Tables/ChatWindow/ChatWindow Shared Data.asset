@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: ChatWindow Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: ChatWindow
+  m_TableCollectionNameGuidString: f3ae936e3cb4f7242902c7260ac86b05
+  m_Entries:
+  - m_Id: 18263982080
+    m_Key: initialInput.text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1557163172311040
+    m_Key: managerName.text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1557336724221952
+    m_Key: statusOnline.text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17764694630477824
+    m_Key: hello.text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17764800452767744
+    m_Key: help.text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17764877699264512
+    m_Key: bonus.text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17764981093052416
+    m_Key: what.text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91387103248769024
+    m_Key: blackjack.play
+    m_Metadata:
+      m_Items: []
+  - m_Id: 106269808718323712
+    m_Key: manager.status.online
+    m_Metadata:
+      m_Items: []
+  - m_Id: 106269966495457280
+    m_Key: manager.status.offline
+    m_Metadata:
+      m_Items: []
+  - m_Id: 111018017990713344
+    m_Key: isEmpty.title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 111018068615962624
+    m_Key: isEmpty.description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113075263214002176
+    m_Key: item.date
+    m_Metadata:
+      m_Items:
+      - rid: 2457945170493833454
+      - rid: 2457945170493833455
+  - m_Id: 115982173293502464
+    m_Key: blackjack.win.title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115982278809608192
+    m_Key: blackjack.win.description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115982830264115200
+    m_Key: blackjack.lose.title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115982867199156224
+    m_Key: blackjack.lose.description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115983091644751872
+    m_Key: blackjack.cancel.title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115983117947232256
+    m_Key: blackjack.cancel.description
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 8502883598853210112
+  references:
+    version: 2
+    RefIds:
+    - rid: 2457945170493833454
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: "{value.Elapsed.Days:cond:\r\n    =0?|\r\n    <=7?{value:ddd}
+          |\r\n    {value:MMM d, yyyy} }\r\n{value:HH:mm}"
+    - rid: 2457945170493833455
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: "{value.Elapsed.Days:cond:\r\n    =0?|\r\n    <=7?{value.DayOfWeek:choose(Sunday|Monday|Tuesday|Wednesday|Thursday|Friday|Saturday):\r\n       
+          \u0412\u0441|\u041F\u043D|\u0412\u0442|\u0421\u0440|\u0427\u0442|\u041F\u0442|\u0421\u0431}
+          |\r\n    {value:d MMM yyyy} }\r\n{value:HH:mm}"
+    - rid: 8502883598853210112
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1764313865521

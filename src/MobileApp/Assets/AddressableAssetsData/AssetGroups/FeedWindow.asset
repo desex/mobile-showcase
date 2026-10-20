@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: FeedWindow
+  m_EditorClassIdentifier: 
+  m_GroupName: FeedWindow
+  m_GUID: 2f65f7abe5c2dcc4182390c4d1dc2d3a
+  m_SerializeEntries:
+  - m_GUID: 6814347f655b22241829f0e3019342fb
+    m_Address: FeedWindow
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 749b59f6e6b669f409a7d593f91393b3
+    m_Address: FeedListView
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8e1d879d6961dd54eac27882440bd54c
+    m_Address: FeedListOverlayView
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: a531a492de590e2419d23b2b29bc631e, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 26b896718f474b74c8ad2a9d006aff0d, type: 2}
+    - {fileID: 11400000, guid: 508d44502e9777648a0f52f553c0291b, type: 2}

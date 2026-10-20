@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 7e4a1c9b2d6f48e0a3b5c8d1f2e6a904
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 337750
+  packageName: 'UI Particle System: Native Canvas VFX'
+  packageVersion: 4.2.0
+  assetPath: Assets/Plugins/UIParticleSystem/Scripts/Utilities/SpriteShapeSampler.cs
+  uploadId: 996276

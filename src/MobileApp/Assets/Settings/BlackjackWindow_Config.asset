@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0ec52bf23356451f992e63559cfda31, type: 3}
+  m_Name: BlackjackWindow_Config
+  m_EditorClassIdentifier: 
+  _displace: {x: 40, y: 0, z: 0}
+  _resultDelay: 1
+  _winText:
+    m_TableReference:
+      m_TableCollectionName: GUID:f19ed1b8e71ea4c1b8b9c01c603d6e66
+    m_TableEntryReference:
+      m_KeyId: 73913477398257664
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  _tieText:
+    m_TableReference:
+      m_TableCollectionName: GUID:f19ed1b8e71ea4c1b8b9c01c603d6e66
+    m_TableEntryReference:
+      m_KeyId: 73913618662416384
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  _lostText:
+    m_TableReference:
+      m_TableCollectionName: GUID:f19ed1b8e71ea4c1b8b9c01c603d6e66
+    m_TableEntryReference:
+      m_KeyId: 73913680767475712
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  _marginBetweenButtonAndResultBox: 12
+  _resultToBoxText:
+    m_keys: 0100000002000000
+    m_values:
+    - m_TableReference:
+        m_TableCollectionName: GUID:f19ed1b8e71ea4c1b8b9c01c603d6e66
+      m_TableEntryReference:
+        m_KeyId: 73914035421044736
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:f19ed1b8e71ea4c1b8b9c01c603d6e66
+      m_TableEntryReference:
+        m_KeyId: 73914149388673024
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+  _fieldResultToColor:
+    m_keys: 010000000200000003000000
+    m_values:
+    - {r: 0.07450981, g: 0.21960786, b: 0.08627451, a: 1}
+    - {r: 0.48235297, g: 0.18039216, b: 0.18039216, a: 1}
+    - {r: 0.5019608, g: 0.36078432, b: 0.0627451, a: 1}
+  _textResultToColor:
+    m_keys: 010000000200000003000000
+    m_values:
+    - {r: 0.20392159, g: 0.7803922, b: 0.34901962, a: 1}
+    - {r: 1, g: 0.23137257, b: 0.18823531, a: 1}
+    - {r: 1, g: 1, b: 1, a: 1}
+  _progressStripResultToColor:
+    m_keys: 010000000200000003000000
+    m_values:
+    - {r: 0.20392159, g: 0.7803922, b: 0.34901962, a: 1}
+    - {r: 1, g: 0.23137257, b: 0.18823531, a: 1}
+    - {r: 0.94117653, g: 0.6666667, b: 0.098039225, a: 1}
+  references:
+    version: 2
+    RefIds: []

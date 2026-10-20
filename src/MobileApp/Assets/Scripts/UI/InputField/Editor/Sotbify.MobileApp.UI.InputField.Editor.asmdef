@@ -1,0 +1,20 @@
+{
+    "name": "Sotbify.MobileApp.UI.InputField.Editor",
+    "rootNamespace": "Sotbify.MobileApp",
+    "references": [
+        "Unity.TextMeshPro",
+        "Unity.TextMeshPro.Editor",
+        "Sotbify.MobileApp.UI.InputField"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

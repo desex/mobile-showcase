@@ -1,0 +1,365 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &-7324532036890652623
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: NotoColorEmoji-noflags Atlas Material
+  m_Shader: {fileID: 4800000, guid: cf81c85f95fe47e1a27f6ae460cf182c, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 5479724933148275466}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ColorMask: 15
+    - _CullMode: 0
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UseUIAlphaClip: 0
+    m_Colors:
+    - _ClipRect: {r: -32767, g: -32767, b: 32767, a: 32767}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
+  m_Name: NotoColorEmoji-noflags Color
+  m_EditorClassIdentifier: 
+  m_Version: 1.1.0
+  m_FaceInfo:
+    m_FaceIndex: 0
+    m_FamilyName: Noto Color Emoji
+    m_StyleName: Regular
+    m_PointSize: 109
+    m_Scale: 1
+    m_UnitsPerEM: 2048
+    m_LineHeight: 128
+    m_AscentLine: 101
+    m_CapLine: 0
+    m_MeanLine: 0
+    m_Baseline: 0
+    m_DescentLine: -27
+    m_SuperscriptOffset: 0
+    m_SuperscriptSize: 0
+    m_SubscriptOffset: 0
+    m_SubscriptSize: 0
+    m_UnderlineOffset: 0
+    m_UnderlineThickness: 0
+    m_StrikethroughOffset: 0
+    m_StrikethroughThickness: 0
+    m_TabWidth: 135.71875
+  m_Material: {fileID: -7324532036890652623}
+  m_SourceFontFileGUID: f866eafbe55d440cda2e73cd541cc7e5
+  m_CreationSettings:
+    sourceFontFileName: 
+    sourceFontFileGUID: f866eafbe55d440cda2e73cd541cc7e5
+    faceIndex: 0
+    pointSizeSamplingMode: 0
+    pointSize: 109
+    padding: 9
+    paddingMode: 2
+    packingMode: 0
+    atlasWidth: 1024
+    atlasHeight: 1024
+    characterSetSelectionMode: 7
+    characterSequence: 
+    referencedFontAssetGUID: 
+    referencedTextAssetGUID: 
+    fontStyle: 0
+    fontStyleModifier: 0
+    renderMode: 69652
+    includeFontFeatures: 0
+  m_SourceFontFile: {fileID: 12800000, guid: f866eafbe55d440cda2e73cd541cc7e5, type: 3}
+  m_SourceFontFilePath: 
+  m_AtlasPopulationMode: 1
+  InternalDynamicOS: 0
+  m_GlyphTable: []
+  m_CharacterTable: []
+  m_AtlasTextures:
+  - {fileID: 5479724933148275466}
+  m_AtlasTextureIndex: 0
+  m_IsMultiAtlasTexturesEnabled: 0
+  m_GetFontFeatures: 1
+  m_ClearDynamicDataOnBuild: 1
+  m_AtlasWidth: 1024
+  m_AtlasHeight: 1024
+  m_AtlasPadding: 9
+  m_AtlasRenderMode: 69652
+  m_UsedGlyphRects: []
+  m_FreeGlyphRects:
+  - m_X: 0
+    m_Y: 0
+    m_Width: 1024
+    m_Height: 1024
+  m_FontFeatureTable:
+    m_MultipleSubstitutionRecords: []
+    m_LigatureSubstitutionRecords:
+    - m_ComponentGlyphIDs: 98010000cd010000120000005000000012000000ac000000
+      m_LigatureGlyphID: 1542
+    - m_ComponentGlyphIDs: 98010000cd010000120000005100000012000000ac000000
+      m_LigatureGlyphID: 1544
+    - m_ComponentGlyphIDs: 98010000ce010000120000005000000012000000ac000000
+      m_LigatureGlyphID: 1548
+    - m_ComponentGlyphIDs: 98010000ce010000120000005100000012000000ac000000
+      m_LigatureGlyphID: 1550
+    - m_ComponentGlyphIDs: 98010000cf010000120000005000000012000000ac000000
+      m_LigatureGlyphID: 1554
+    - m_ComponentGlyphIDs: 98010000cf010000120000005100000012000000ac000000
+      m_LigatureGlyphID: 1556
+    - m_ComponentGlyphIDs: 98010000d0010000120000005000000012000000ac000000
+      m_LigatureGlyphID: 1560
+    - m_ComponentGlyphIDs: 98010000d0010000120000005100000012000000ac000000
+      m_LigatureGlyphID: 1562
+    - m_ComponentGlyphIDs: 98010000d1010000120000005000000012000000ac000000
+      m_LigatureGlyphID: 1566
+    - m_ComponentGlyphIDs: 98010000d1010000120000005100000012000000ac000000
+      m_LigatureGlyphID: 1568
+    - m_ComponentGlyphIDs: 98010000120000005000000012000000ac000000
+      m_LigatureGlyphID: 1536
+    - m_ComponentGlyphIDs: 98010000120000005100000012000000ac000000
+      m_LigatureGlyphID: 1538
+    - m_ComponentGlyphIDs: 98010000cd0100001200000050000000
+      m_LigatureGlyphID: 1541
+    - m_ComponentGlyphIDs: 98010000cd0100001200000051000000
+      m_LigatureGlyphID: 1543
+    - m_ComponentGlyphIDs: 98010000cd01000012000000ac000000
+      m_LigatureGlyphID: 1545
+    - m_ComponentGlyphIDs: 98010000ce0100001200000050000000
+      m_LigatureGlyphID: 1547
+    - m_ComponentGlyphIDs: 98010000ce0100001200000051000000
+      m_LigatureGlyphID: 1549
+    - m_ComponentGlyphIDs: 98010000ce01000012000000ac000000
+      m_LigatureGlyphID: 1551
+    - m_ComponentGlyphIDs: 98010000cf0100001200000050000000
+      m_LigatureGlyphID: 1553
+    - m_ComponentGlyphIDs: 98010000cf0100001200000051000000
+      m_LigatureGlyphID: 1555
+    - m_ComponentGlyphIDs: 98010000cf01000012000000ac000000
+      m_LigatureGlyphID: 1557
+    - m_ComponentGlyphIDs: 98010000d00100001200000050000000
+      m_LigatureGlyphID: 1559
+    - m_ComponentGlyphIDs: 98010000d00100001200000051000000
+      m_LigatureGlyphID: 1561
+    - m_ComponentGlyphIDs: 98010000d001000012000000ac000000
+      m_LigatureGlyphID: 1563
+    - m_ComponentGlyphIDs: 98010000d10100001200000050000000
+      m_LigatureGlyphID: 1565
+    - m_ComponentGlyphIDs: 98010000d10100001200000051000000
+      m_LigatureGlyphID: 1567
+    - m_ComponentGlyphIDs: 98010000d101000012000000ac000000
+      m_LigatureGlyphID: 1569
+    - m_ComponentGlyphIDs: 980100001200000050000000
+      m_LigatureGlyphID: 1535
+    - m_ComponentGlyphIDs: 980100001200000051000000
+      m_LigatureGlyphID: 1537
+    - m_ComponentGlyphIDs: 9801000012000000ac000000
+      m_LigatureGlyphID: 1539
+    - m_ComponentGlyphIDs: 98010000cd010000
+      m_LigatureGlyphID: 1540
+    - m_ComponentGlyphIDs: 98010000ce010000
+      m_LigatureGlyphID: 1546
+    - m_ComponentGlyphIDs: 98010000cf010000
+      m_LigatureGlyphID: 1552
+    - m_ComponentGlyphIDs: 98010000d0010000
+      m_LigatureGlyphID: 1558
+    - m_ComponentGlyphIDs: 98010000d1010000
+      m_LigatureGlyphID: 1564
+    - m_ComponentGlyphIDs: 77020000120000007f000000
+      m_LigatureGlyphID: 1473
+    - m_ComponentGlyphIDs: 1d020000cd010000
+      m_LigatureGlyphID: 1690
+    - m_ComponentGlyphIDs: 1d020000ce010000
+      m_LigatureGlyphID: 1691
+    - m_ComponentGlyphIDs: 1d020000cf010000
+      m_LigatureGlyphID: 1692
+    - m_ComponentGlyphIDs: 1d020000d0010000
+      m_LigatureGlyphID: 1693
+    - m_ComponentGlyphIDs: 1d020000d1010000
+      m_LigatureGlyphID: 1694
+    - m_ComponentGlyphIDs: 1f020000cd010000
+      m_LigatureGlyphID: 1700
+    - m_ComponentGlyphIDs: 1f020000ce010000
+      m_LigatureGlyphID: 1701
+    - m_ComponentGlyphIDs: 1f020000cf010000
+      m_LigatureGlyphID: 1702
+    - m_ComponentGlyphIDs: 1f020000d0010000
+      m_LigatureGlyphID: 1703
+    - m_ComponentGlyphIDs: 1f020000d1010000
+      m_LigatureGlyphID: 1704
+    - m_ComponentGlyphIDs: 20020000cd010000
+      m_LigatureGlyphID: 1705
+    - m_ComponentGlyphIDs: 20020000ce010000
+      m_LigatureGlyphID: 1706
+    - m_ComponentGlyphIDs: 20020000cf010000
+      m_LigatureGlyphID: 1707
+    - m_ComponentGlyphIDs: 20020000d0010000
+      m_LigatureGlyphID: 1708
+    - m_ComponentGlyphIDs: 20020000d1010000
+      m_LigatureGlyphID: 1709
+    - m_ComponentGlyphIDs: 93000000cd010000
+      m_LigatureGlyphID: 1496
+    - m_ComponentGlyphIDs: 93000000ce010000
+      m_LigatureGlyphID: 1497
+    - m_ComponentGlyphIDs: 93000000cf010000
+      m_LigatureGlyphID: 1498
+    - m_ComponentGlyphIDs: 93000000d0010000
+      m_LigatureGlyphID: 1499
+    - m_ComponentGlyphIDs: 93000000d1010000
+      m_LigatureGlyphID: 1500
+    - m_ComponentGlyphIDs: a8030000cd010000
+      m_LigatureGlyphID: 2779
+    - m_ComponentGlyphIDs: a8030000ce010000
+      m_LigatureGlyphID: 2780
+    - m_ComponentGlyphIDs: a8030000cf010000
+      m_LigatureGlyphID: 2781
+    - m_ComponentGlyphIDs: a8030000d0010000
+      m_LigatureGlyphID: 2782
+    - m_ComponentGlyphIDs: a8030000d1010000
+      m_LigatureGlyphID: 2783
+    - m_ComponentGlyphIDs: 8f0300001200000005010000
+      m_LigatureGlyphID: 2669
+    - m_ComponentGlyphIDs: 05010000120000008f030000
+      m_LigatureGlyphID: 2669
+    - m_ComponentGlyphIDs: 87030000120000007a020000
+      m_LigatureGlyphID: 2667
+    - m_ComponentGlyphIDs: 7a0200001200000087030000
+      m_LigatureGlyphID: 2667
+    - m_ComponentGlyphIDs: 8e030000120000007d020000
+      m_LigatureGlyphID: 2668
+    - m_ComponentGlyphIDs: 7d020000120000008e030000
+      m_LigatureGlyphID: 2668
+    m_GlyphPairAdjustmentRecords: []
+    m_MarkToBaseAdjustmentRecords: []
+    m_MarkToMarkAdjustmentRecords: []
+  m_ShouldReimportFontFeatures: 0
+  m_FallbackFontAssetTable: []
+  m_FontWeightTable:
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  fontWeights: []
+  normalStyle: 0
+  normalSpacingOffset: 0
+  boldStyle: 0.75
+  boldSpacing: 7
+  italicStyle: 35
+  tabSize: 10
+  m_fontInfo:
+    Name: 
+    PointSize: 0
+    Scale: 0
+    CharacterCount: 0
+    LineHeight: 0
+    Baseline: 0
+    Ascender: 0
+    CapHeight: 0
+    Descender: 0
+    CenterLine: 0
+    SuperscriptOffset: 0
+    SubscriptOffset: 0
+    SubSize: 0
+    Underline: 0
+    UnderlineThickness: 0
+    strikethrough: 0
+    strikethroughThickness: 0
+    TabWidth: 0
+    Padding: 0
+    AtlasWidth: 0
+    AtlasHeight: 0
+  m_glyphInfoList: []
+  m_KerningTable:
+    kerningPairs: []
+  fallbackFontAssets: []
+  atlas: {fileID: 0}
+--- !u!28 &5479724933148275466
+Texture2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: NotoColorEmoji-noflags Atlas
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_IsAlphaChannelOptional: 0
+  serializedVersion: 3
+  m_Width: 1
+  m_Height: 1
+  m_CompleteImageSize: 4
+  m_MipsStripped: 0
+  m_TextureFormat: 4
+  m_MipCount: 1
+  m_IsReadable: 1
+  m_IsPreProcessed: 0
+  m_IgnoreMipmapLimit: 1
+  m_MipmapLimitGroupName: 
+  m_StreamingMipmaps: 0
+  m_StreamingMipmapsPriority: 0
+  m_VTOnly: 0
+  m_AlphaIsTransparency: 0
+  m_ImageCount: 1
+  m_TextureDimension: 2
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 0
+    m_WrapV: 0
+    m_WrapW: 0
+  m_LightmapFormat: 0
+  m_ColorSpace: 1
+  m_PlatformBlob: 
+  image data: 4
+  _typelessdata: 00000000
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 

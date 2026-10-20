@@ -1,0 +1,22 @@
+{
+    "name": "Sotbify.MobileApp.Stab.VRGuideWindow",
+    "rootNamespace": "Sotbify.MobileApp",
+    "references": [
+        "VContainer",
+        "Sotbify.MobileApp.UI.Window",
+        "R3.Unity",
+        "Sotbify.MobileApp.Common.SerializableDictionary",
+        "Sotbify.MobileApp.Utils"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "R3.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

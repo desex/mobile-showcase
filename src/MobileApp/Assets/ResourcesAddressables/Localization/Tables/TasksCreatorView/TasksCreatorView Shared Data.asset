@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: TasksCreatorView Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: TasksCreatorView
+  m_TableCollectionNameGuidString: 38cc4b541a603e64999518dee82d5f41
+  m_Entries:
+  - m_Id: 15288119296
+    m_Key: newTask.text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 60502716416
+    m_Key: todo.text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141985460224
+    m_Key: placeholder.text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 236210499584
+    m_Key: create.text
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 7670130812581314695
+  references:
+    version: 2
+    RefIds:
+    - rid: 7670130812581314695
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1768550254762

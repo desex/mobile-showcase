@@ -1,0 +1,21 @@
+{
+    "name": "Sotbify.MobileApp.BonusesMoreTutorialInfo",
+    "rootNamespace": "Sotbify.MobileApp",
+    "references": [
+        "VContainer",
+        "Sotbify.MobileApp.UI.Window",
+        "UniTask",
+        "R3.Unity",
+        "Sotbify.MobileApp.Nexus",
+        "Sotbify.MobileApp.UI.Common"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

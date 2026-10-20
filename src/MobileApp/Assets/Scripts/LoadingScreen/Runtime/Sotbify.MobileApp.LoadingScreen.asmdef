@@ -1,0 +1,25 @@
+{
+    "name": "Sotbify.MobileApp.LoadingScreen",
+    "rootNamespace": "Sotbify.MobileApp",
+    "references": [
+        "LitMotion",
+        "Sotbify.MobileApp.UI.Window",
+        "VContainer",
+        "UniTask",
+        "Sotbify.MobileApp.Utils",
+        "Sotbifay.MobileApp.Logger",
+        "AVProVideo.Runtime",
+        "AVProVideo.Extensions.UnityUI"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "R3.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

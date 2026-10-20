@@ -1,0 +1,35 @@
+{
+    "name": "Sotbify.MobileApp.BlackjackWindow",
+    "rootNamespace": "Sotbify.MobileApp",
+    "references": [
+        "Sotbify.MobileApp.UI.Window",
+        "Sotbify.MobileApp.Db",
+        "R3.Unity",
+        "VContainer",
+        "UniTask",
+        "Sotbifay.MobileApp.Logger",
+        "Sotbify.MobileApp.Common.SerializableDictionary",
+        "Unity.TextMeshPro",
+        "LitMotion",
+        "Coffee.UIEffect",
+        "Sotbify.MobileApp.Utils",
+        "Sotbify.MobileApp.Server",
+        "Sotbify.MobileApp.Common.Preferences",
+        "Unity.Localization",
+        "Sotbify.MobileApp.ServerConstConverter"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "R3.dll",
+        "ObservableCollections.dll",
+        "ObservableCollections.R3.dll",
+        "Sirenix.OdinInspector.Attributes.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

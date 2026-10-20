@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: e2b7c9d04f8a4b13a6c8e1d5f7a90234
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 337750
+  packageName: 'UI Particle System: Native Canvas VFX'
+  packageVersion: 4.2.0
+  assetPath: Assets/Plugins/UIParticleSystem/Scripts/Utilities/TextShapeSampler.cs
+  uploadId: 996276

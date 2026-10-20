@@ -1,0 +1,29 @@
+﻿{
+  "name": "Sotbify.MobileApp.FirebaseCM.Impls",
+  "rootNamespace": "Sotbify.MobileApp",
+  "references": [
+    "UniTask",
+    "Sotbifay.MobileApp.Logger",
+    "VContainer",
+    "Sotbify.MobileApp.Common.Preferences",
+    "Sotbify.MobileApp.Utils",
+    "Sotbify.MobileApp.Server",
+    "Sotbify.MobileApp.ApplicationUI",
+    "Sotbify.MobileApp.FirebaseCM",
+    "UState",
+    "Sotbify.MobileApp.Analytics",
+    "Sotbify.MobileApp.EnumConverter",
+    "Sotbify.MobileApp.Nexus",
+    "Sotbify.MobileApp.ServerConstConverter",
+    "Sotbify.MobileApp.Dock"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

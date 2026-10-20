@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 1c326b2213fa8d045a82602935e20040
+AssetOrigin:
+  serializedVersion: 1
+  productId: 337750
+  packageName: 'UI Particle System: Native Canvas VFX'
+  packageVersion: 4.2.0
+  assetPath: Assets/Plugins/UIParticleSystem/Scripts/Managers/PerformanceMonitor.cs
+  uploadId: 996276

@@ -1,0 +1,31 @@
+{
+    "name": "Sotbify.MobileApp.StabNexus.Impls",
+    "rootNamespace": "Sotbify.MobileApp",
+    "references": [
+        "Sotbify.MobileApp.UI.Window",
+        "VContainer",
+        "Sotbify.MobileApp.Chat",
+        "Sotbifay.MobileApp.Logger",
+        "UniTask",
+        "Sotbify.MobileApp.Common.SerializableDictionary",
+        "Sotbify.MobileApp.Db",
+        "Sotbify.MobileApp.Utils",
+        "Sotbify.MobileApp.StabNexus",
+        "Sotbify.MobileApp.Nexus.Impls",
+        "Sotbify.MobileApp.DockWindowSwitcher",
+        "Sotbify.MobileApp.Nexus",
+        "Sotbify.MobileApp.ApplicationUI",
+        "LeTai.Asset.TranslucentImage"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "R3.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

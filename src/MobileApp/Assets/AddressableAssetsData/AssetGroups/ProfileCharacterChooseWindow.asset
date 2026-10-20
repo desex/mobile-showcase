@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: ProfileCharacterChooseWindow
+  m_EditorClassIdentifier: 
+  m_GroupName: ProfileCharacterChooseWindow
+  m_GUID: 3fd620393599aac4bb08a36940ffaccd
+  m_SerializeEntries:
+  - m_GUID: 1319b8a48e5708d4fa0ea9a181cfd8cc
+    m_Address: CharacterChooseWindow
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 924beb506b4d7a846837452650f4de98
+    m_Address: ProfileCharacterChooseView
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: a531a492de590e2419d23b2b29bc631e, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: baf3cb65f051b04488373588f550b107, type: 2}
+    - {fileID: 11400000, guid: 2d918473a1530bc459060ab9ffb242c2, type: 2}

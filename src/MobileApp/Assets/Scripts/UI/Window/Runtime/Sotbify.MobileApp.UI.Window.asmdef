@@ -1,0 +1,22 @@
+{
+    "name": "Sotbify.MobileApp.UI.Window",
+    "rootNamespace": "Sotbify.MobileApp",
+    "references": [
+        "VContainer",
+        "UniTask",
+        "Sotbify.MobileApp.Common.AssetsProvider",
+        "LitMotion",
+        "LitMotion.Extensions",
+        "Sotbifay.MobileApp.Logger",
+        "Sotbify.MobileApp.Assets"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

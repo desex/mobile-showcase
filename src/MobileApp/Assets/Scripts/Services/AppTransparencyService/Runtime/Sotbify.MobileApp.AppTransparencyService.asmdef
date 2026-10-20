@@ -1,0 +1,20 @@
+{
+    "name": "Sotbify.MobileApp.AppTransparencyService",
+    "rootNamespace": "",
+    "references": [
+        "AppTrackingTransparency",
+        "AppTrackingTransparency.Common",
+        "Sotbifay.MobileApp.Logger",
+        "UniTask",
+        "Sotbify.MobileApp.Utils"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

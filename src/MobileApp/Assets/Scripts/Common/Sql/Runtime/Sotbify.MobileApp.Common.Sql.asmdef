@@ -1,0 +1,16 @@
+{
+    "name": "Sotbify.MobileApp.Common.Sql",
+    "rootNamespace": "Sotbify.MobileApp",
+    "references": [
+        "Gilzoide.SqliteNet"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Stab
+  m_EditorClassIdentifier: 
+  m_GroupName: Stab
+  m_GUID: b33f807a862b3b34194c67bbb0ee8a31
+  m_SerializeEntries:
+  - m_GUID: 2db40e2a6da08ce4e8701e8cadda9135
+    m_Address: StabChatView
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 36c9b574cc3ec414c9a8d18731fce96d
+    m_Address: WarrantyWindow
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 393c3e8cade87214199afdab4a88a80a
+    m_Address: DeletePopupView
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 60b2a693cf1524548a610e929755be59
+    m_Address: AchievementsWindow
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 621e021a245d07c46938cb642ec6f2d9
+    m_Address: StabChat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6797e4c21b59834468628370f844987b
+    m_Address: SessionsWindow
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 87a1ec570b5301c4eb61a3430d5893a8
+    m_Address: StabProfile
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 91daa64811a33c142a8e55989d6fce4b
+    m_Address: WarrantyView
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9da6f08a17b3cad4aaa593a984dd4a10
+    m_Address: SessionsView
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a743a7727f1ce4a59bd2dc19835071f2
+    m_Address: VRGuideView
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b8e14748778703747ac528b4bdccfbb0
+    m_Address: StabNexus
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d31d4411e6849486989e00edfc3cca5f
+    m_Address: SettingsView
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dacaea5a9c57649089006c96e71bb808
+    m_Address: AchievementsView
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e003dd33e283c2147b8f870961eff7c6
+    m_Address: StabMainWindow
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e44d79c675e444f778e5a808c3b10dd9
+    m_Address: GuideContentView
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e7a3c0cfa18dd4c1b980149f8e3c70b4
+    m_Address: SettingsWindow
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ea5c6e9386efc544e9090d0ce18f16cf
+    m_Address: StabNexusView
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f493749cf6c2c4ac68ba22f8ba0f5e8c
+    m_Address: VRGuide
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ff3138ae94bb1124aa276983f71ba4da
+    m_Address: StabProfileView
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fffdf41c5760be149931e4bbfc6fc305
+    m_Address: StabHomeView
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: a531a492de590e2419d23b2b29bc631e, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: d5f21a2437dc663489f8d89b22bb9c77, type: 2}
+    - {fileID: 11400000, guid: 7c9617e13879bf0429876f62bd33fb38, type: 2}

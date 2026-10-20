@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: RelicsMoreTutorialInfo Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: RelicsMoreTutorialInfo
+  m_TableCollectionNameGuidString: ecf538b631a1dde4491abf36c4487940
+  m_Entries:
+  - m_Id: 65077764096
+    m_Key: 1blockHeader.text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 127379955712
+    m_Key: 1blockDescription.text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 183340359680
+    m_Key: 2blockRarnessHeader.text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 263963271168
+    m_Key: 2blockRarnessDescription.text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 316060721152
+    m_Key: 2blockHeader.text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 350445625344
+    m_Key: 2blockDescription.text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 388181778432
+    m_Key: 2blockInfoHeader.text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 410126376960
+    m_Key: 2blockInfoDescription.text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 454372089856
+    m_Key: 3blockHeader.text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 486261383168
+    m_Key: 3blockDescription.text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 487435788288
+    m_Key: 4blockHeader.text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 487997825024
+    m_Key: 4blockDescription.text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 488664719360
+    m_Key: 5blockHeader.text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 489302253568
+    m_Key: 5blockDescription.text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 490308886528
+    m_Key: 6blockHeader.text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 491298742272
+    m_Key: 6blockDescription.text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 491873361920
+    m_Key: 7blockHeader.text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 492557033472
+    m_Key: 7blockDescription.text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 493924376576
+    m_Key: 8blockHeader.text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 494566105088
+    m_Key: 8blockDescription.text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42969599041536
+    m_Key: close.button
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 1543239638917840896
+  references:
+    version: 2
+    RefIds:
+    - rid: 1543239638917840896
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1791880512419

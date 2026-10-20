@@ -1,0 +1,39 @@
+{
+    "name": "Sotbify.MobileApp.RelicListWindow",
+    "rootNamespace": "Sotbify.MobileApp",
+    "references": [
+        "Sotbify.MobileApp.UI.Window",
+        "R3.Unity",
+        "VContainer",
+        "UniTask",
+        "OSA.Core",
+        "Sotbify.MobileApp.Common.OSA",
+        "Sotbify.MobileApp.Common.Collections",
+        "Sotbifay.MobileApp.Logger",
+        "Sotbify.MobileApp.Utils",
+        "Sotbify.MobileApp.Server",
+        "Coffee.UIEffect",
+        "Unity.TextMeshPro",
+        "Sotbify.MobileApp.ItemRenderer",
+        "Sotbify.MobileApp.Db",
+        "Sotbify.MobileApp.Assets",
+        "Unity.Addressables",
+        "LitMotion.Animation",
+        "Sotbify.MobileApp.TextureProvider",
+        "Sotbify.MobileApp.Relic",
+        "Sotbify.MobileApp.Localization"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "R3.dll",
+        "ObservableCollections.R3.dll",
+        "ObservableCollections.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: FAQWindow Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: FAQWindow
+  m_TableCollectionNameGuidString: 4fc2d178f913f8649a0da3c38fc30032
+  m_Entries:
+  - m_Id: 20270952448
+    m_Key: header.text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 103783739392
+    m_Key: manager.text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 466343571456
+    m_Key: askQuestion.text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 693360275456
+    m_Key: environmentChoosing.text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1023582023680
+    m_Key: joystick.text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1090229514240
+    m_Key: helmetControllers.text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1310745047040
+    m_Key: mainPageFunctionality.text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1679973822464
+    m_Key: chat.text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1904243257344
+    m_Key: read.text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9071099203432448
+    m_Key: browser.text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9071158582194176
+    m_Key: vrSlots.text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9071217235341312
+    m_Key: stripRoom.text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9071284381954048
+    m_Key: vrVideo.text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9071348181512192
+    m_Key: cinema.text
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 1600726325226635350
+  references:
+    version: 2
+    RefIds:
+    - rid: 1600726325226635350
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1764931023624

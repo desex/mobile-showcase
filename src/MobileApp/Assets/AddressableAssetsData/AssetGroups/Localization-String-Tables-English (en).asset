@@ -1,0 +1,306 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-String-Tables-English (en)
+  m_EditorClassIdentifier: 
+  m_GroupName: Localization-String-Tables-English (en)
+  m_GUID: 33d4672ccc3cda44ebe329d8363d3de9
+  m_SerializeEntries:
+  - m_GUID: 06f5be0ce4f80f64d8d26f5d712866e4
+    m_Address: PasswordCreationWindow_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 07a1f1ead553df44cb06b49a1135d951
+    m_Address: ActiveSetTutorialOverlayView_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0c37617e2d41ee745bab61b25a725166
+    m_Address: Home_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 10944f6a707620342aa559cb80f6feea
+    m_Address: RelicsMoreTutorialInfo_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 193b4d672de87004fb8993f9edbb90d7
+    m_Address: RelicListWindow_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2d74b883d0aa7e9459072977bdc242a3
+    m_Address: BonusesMoreTutorialInfo_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2fd11910ed1441242859de824499218b
+    m_Address: ChooseCharacterWindow_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 38dcde38b2156af45a360898e43adc1c
+    m_Address: NotificationCenterWindow_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 38f2dd0770d29f24cb029507b2e5f2b5
+    m_Address: RelicDescriptionWindow_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 39629fcd01f95f844823d3356305b47c
+    m_Address: TasksCreatorView_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3da70198a63e7684a8a6467dda296602
+    m_Address: ProfileWindow_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3fa4e23f24a64744ca612e32cfc03ae4
+    m_Address: EventsTutorialOverlayView_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 40e912c58f3db8a498e623e129ab796d
+    m_Address: ChatWindow_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 429bda60e4d82464ba42a4464296f7e0
+    m_Address: StabTasks_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4a92037bd057cd549bca6abf7f5bf013
+    m_Address: GreetingsWindow_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4de823726190e1649acebd357b9f18ad
+    m_Address: StabMainView_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 56f6cca70fc72a14ca9bb8650f7028ce
+    m_Address: MusicView_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 595e469a1b5464840a16692d968c1067
+    m_Address: AllRelicsWindow_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5bf2134cc20cada45a8a89518af040f2
+    m_Address: ChatTutorialOverlayView_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5d076a7a86127874a829827afe2c17ce
+    m_Address: StabDock_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5dda7603900aeb84b81bb1de8610f208
+    m_Address: WelcomeTutorialOverlayView_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 65d5a8df8d1c52142b9a32090b4f4c1b
+    m_Address: DockWindow_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6b4ac21a9dcf72644ac15f812df65635
+    m_Address: CheckPasswordWindow_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7835abcdb1badea4d8bd6525e30490c4
+    m_Address: HomeTutorialOverlayView_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 800903b8f60277747b76e33329337e10
+    m_Address: NewRelicWindow_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 852da6806867fd54b83b66e69951f927
+    m_Address: BonusTutorialOverlayView_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 892056b09d21a4d5aba39749c9730176
+    m_Address: BlackjackWindow_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 916db559fc267744bb093bec428e87b6
+    m_Address: EHomeItemType_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 920e8e40e1e24d64f94a1be86a2facc8
+    m_Address: EBonusType_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9873787162480fd49ab1bdd88a992e81
+    m_Address: ScanWindow_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a20037d97e275974884bc127b33a30d1
+    m_Address: TwoFactorWindow_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a7993c0499699a744b18115d4bfc9338
+    m_Address: ChatNotificationTutorialOverlayView_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c43e879e0ade3314485d42b4c1b47668
+    m_Address: StabPolicy_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c467f946377aff748ac330d6a81a53a1
+    m_Address: HiddenModeWindow_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c66988d9a1372d747aaa32175d91d690
+    m_Address: BonusesWindow_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cde2aea26e90809429e4789ba4d5a7df
+    m_Address: RelicChooseWindow_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d25d583a023cfef4bb4e830c5d5fb9a8
+    m_Address: RelicsWindow_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d27c851026432cd42ba088c493c68edc
+    m_Address: CasinoWindow_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d6a28ebaffc8dca4e9299e4aa0e6c5b0
+    m_Address: RelicsTutorialOverlayView_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d7d9888c29a0394409fcf833d7c8ba33
+    m_Address: NewsContentWindow_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d7ee6f8df367c5e48a4282719258e4e9
+    m_Address: TutorialWindows_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d8c213198d2644c438181651808d083f
+    m_Address: RelicActiveSet_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: de9d3220882d3ee49bf3dda6992c5943
+    m_Address: NexusHelmet_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e5e1131fbd82c074ab2aa95a5bee0a33
+    m_Address: FAQWindow_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ea6a7523ec0decf4b9fce711d4eba06c
+    m_Address: DeletePopupWindow_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fccf7b83ab9650d4e8aa39e0477e136d
+    m_Address: FeedWindow_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: a531a492de590e2419d23b2b29bc631e, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 81b0f627affcd4142a156af52a51c1be, type: 2}
+    - {fileID: 11400000, guid: a7ef4141d8e120d4f9e5dc84f0e99517, type: 2}

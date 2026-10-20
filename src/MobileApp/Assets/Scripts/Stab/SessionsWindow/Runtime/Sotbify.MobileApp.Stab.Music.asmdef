@@ -1,0 +1,29 @@
+{
+    "name": "Sotbify.MobileApp.Stab.Music",
+    "rootNamespace": "",
+    "references": [
+        "GUID:b0214a6008ed146ff8f122a6a9c2f6cc",
+        "GUID:56bdf32883bb47358489993d426de6dc",
+        "GUID:77221876cc6b8244180b96e320b1bcd4",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f",
+        "GUID:570288d68c06d364a82f87aca0bc1a34",
+        "GUID:dc377a1ca637469a90f57556443526a0",
+        "GUID:ca4b343e7c024474a58e266afde715df",
+        "GUID:a212856ca8c87274dbb3613181928daf",
+        "GUID:f51ebe6a0ceec4240a699833d6309b23",
+        "GUID:3b570a5146f9d4f0fa107ed4559471a3"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "R3.dll",
+        "ObservableCollections.dll",
+        "ObservableCollections.R3.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

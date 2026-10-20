@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: HiddenMode
+  m_EditorClassIdentifier: 
+  m_GroupName: HiddenMode
+  m_GUID: ebd596a3d7d8db246ad60a8d24d5d838
+  m_SerializeEntries:
+  - m_GUID: 252708cfdb8ba3947aaad50d8af93754
+    m_Address: TwoFactorWindowView
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8830069ff71b8404d97b8645c4ea13d2
+    m_Address: CheckPasswordWindowView
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a3c653c8c3f1f1142b29bcbe172dce26
+    m_Address: PinCreationWindowView
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e3c959a5f47742f428f87d68d81ae726
+    m_Address: HiddenModeWIndow
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e50c5febf5a829849952a06019f7c766
+    m_Address: HiddenModeWindowView
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: a531a492de590e2419d23b2b29bc631e, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: dc200ab2e397ce646b839c314670bcb0, type: 2}
+    - {fileID: 11400000, guid: f9fcac4e3cf7b7a419bd4c054824b89c, type: 2}

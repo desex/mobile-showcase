@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 67c042b360f6f1f47a4b81ba966c6038
+AssetOrigin:
+  serializedVersion: 1
+  productId: 337750
+  packageName: 'UI Particle System: Native Canvas VFX'
+  packageVersion: 4.2.0
+  assetPath: Assets/Plugins/UIParticleSystem/Scripts/Settings/SizeSettings.cs
+  uploadId: 996276

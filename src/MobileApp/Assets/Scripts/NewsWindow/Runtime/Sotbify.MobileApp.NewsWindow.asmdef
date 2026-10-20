@@ -1,0 +1,37 @@
+{
+    "name": "Sotbify.MobileApp.NewsWindow",
+    "rootNamespace": "Sotbify.MobileApp",
+    "references": [
+        "Sotbify.MobileApp.UI.Window",
+        "Unity.TextMeshPro",
+        "R3.Unity",
+        "Sotbify.MobileApp.Utils",
+        "Sotbify.MobileApp.TextureProvider",
+        "LitMotion.Animation",
+        "LitMotion",
+        "LitMotion.Extensions",
+        "Sotbify.MobileApp.Server",
+        "OSA.Core",
+        "Sotbify.MobileApp.Common.OSA",
+        "Sotbifay.MobileApp.Logger",
+        "Sotbify.MobileApp.ServerConstConverter",
+        "Sotbify.MobileApp.UI.Common",
+        "Sotbify.MobileApp.FeedWindow",
+        "UniTask",
+        "VContainer",
+        "Sotbify.MobileApp.Localization"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "R3.dll",
+        "ObservableCollections.R3.dll",
+        "ObservableCollections.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

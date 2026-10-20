@@ -1,0 +1,19 @@
+{
+    "name": "Sotbifay.MobileApp.WebView",
+    "rootNamespace": "Sotbifay.MobileApp",
+    "references": [
+        "UniWebView-CSharp",
+        "UniTask",
+        "VContainer",
+        "Sotbify.MobileApp.Utils"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

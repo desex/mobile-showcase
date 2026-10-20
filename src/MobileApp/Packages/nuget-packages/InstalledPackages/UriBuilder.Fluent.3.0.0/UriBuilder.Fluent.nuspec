@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>UriBuilder.Fluent</id>
+    <version>3.0.0</version>
+    <authors>Tommy Parnell</authors>
+    <icon>UriBulider.Fluent.png</icon>
+    <projectUrl>https://github.com/TerribleDev/UriBuilder.Fluent</projectUrl>
+    <description>Package Description</description>
+    <releaseNotes>This package adds extension methods over System.UriBuilder to help deal with query string parameters and create more of a fluent interface. 
+		Unlike other projects, this NetStandardLibrary compliant package builds ontop of trusty UriBuilder, does not use custom Uri generators, and has no outside dependencies!</releaseNotes>
+    <tags>Url building Uri Uri building fluent extension</tags>
+    <repository type="git" url="https://github.com/TerribleDev/UriBuilder.Fluent" commit="3f7ca24155ae0c0199bbdd52b40338996cd6a47d" />
+    <dependencies>
+      <group targetFramework=".NETStandard2.0" />
+    </dependencies>
+  </metadata>
+</package>

@@ -1,0 +1,16 @@
+{
+    "name": "Sotbify.MobileApp.ItemRenderer",
+    "rootNamespace": "Sotbify.MobileApp",
+    "references": ["GUID:035b23be55f9405997a60db48ab7798a"],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "Sirenix.OdinInspector.Attributes.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

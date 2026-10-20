@@ -1,0 +1,23 @@
+{
+    "name": "Sotbify.MobileApp.Stab.WarrantyWindow",
+    "rootNamespace": "",
+    "references": [
+        "VContainer",
+        "Sotbify.MobileApp.UI.Window",
+        "R3.Unity",
+        "Sotbify.MobileApp.StabNexus",
+        "Sotbify.MobileApp.Utils",
+        "Sotbify.MobileApp.Nexus"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "R3.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

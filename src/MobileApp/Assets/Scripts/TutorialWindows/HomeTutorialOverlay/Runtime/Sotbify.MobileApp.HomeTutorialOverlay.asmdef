@@ -1,0 +1,20 @@
+{
+    "name": "Sotbify.MobileApp.HomeTutorialOverlay",
+    "rootNamespace": "Sotbify.MobileApp",
+    "references": [
+        "VContainer",
+        "Sotbify.MobileApp.UI.Window",
+        "R3.Unity",
+        "UniTask",
+        "Sotbify.MobileApp.HomeWindow"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

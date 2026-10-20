@@ -1,0 +1,22 @@
+{
+  "name": "Sotbify.MobileApp.TextureProvider",
+  "rootNamespace": "Sotbify.MobileApp",
+  "references": [
+    "UniTask",
+    "VContainer",
+    "Sotbifay.MobileApp.Logger",
+    "Sotbify.MobileApp.Server",
+    "Sotbifay.Images"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": true,
+  "precompiledReferences": [
+    "R3.dll"
+  ],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

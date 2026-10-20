@@ -1,0 +1,23 @@
+{
+    "name": "Sotbify.MobileApp.Badge.Chat",
+    "rootNamespace": "Sotbify.MobileApp",
+    "references": [
+        "R3.Unity",
+        "VContainer",
+        "Sotbify.MobileApp.Badge",
+        "Sotbify.MobileApp.ChatMessages",
+        "Sotbify.MobileApp.ApplicationUI",
+        "UState"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [
+        "R3.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

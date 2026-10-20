@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: BlurredBackgroundWindow
+  m_EditorClassIdentifier: 
+  m_GroupName: BlurredBackgroundWindow
+  m_GUID: 60b9dfa2cdf16444399802bfda5b4730
+  m_SerializeEntries:
+  - m_GUID: ab20a1469c9d2f5479970f8d376330f3
+    m_Address: BlurredBackgroundWindow
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ffd86d686be632a40ae75577d451ebf1
+    m_Address: BlurredBackgroundView
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: a531a492de590e2419d23b2b29bc631e, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: ed41e0b8e0565164ca479854f28672ed, type: 2}
+    - {fileID: 11400000, guid: ff50a70dc949bce41aeb1e1c0b322928, type: 2}

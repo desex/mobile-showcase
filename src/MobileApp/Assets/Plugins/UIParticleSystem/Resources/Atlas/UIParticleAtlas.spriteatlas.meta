@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0e9e5b287c9b5fc4c9b07895605379a1
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 4343727234628468602
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 337750
+  packageName: 'UI Particle System: Native Canvas VFX'
+  packageVersion: 4.2.0
+  assetPath: Assets/Plugins/UIParticleSystem/Resources/Atlas/UIParticleAtlas.spriteatlas
+  uploadId: 996276

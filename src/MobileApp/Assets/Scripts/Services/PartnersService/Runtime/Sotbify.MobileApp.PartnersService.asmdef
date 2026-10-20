@@ -1,0 +1,23 @@
+{
+    "name": "Sotbify.MobileApp.PartnersService",
+    "rootNamespace": "Sotbify.MobileApp",
+    "references": [
+        "GUID:69a81eb24f0934198b4ee24115e02b9c",
+        "GUID:f51ebe6a0ceec4240a699833d6309b23",
+        "GUID:77221876cc6b8244180b96e320b1bcd4",
+        "GUID:ca4b343e7c024474a58e266afde715df",
+        "GUID:e70c3908fbb54099a244933a4994d24b",
+        "GUID:035b23be55f9405997a60db48ab7798a"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "R3.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,13 @@
+{
+  "displayName": "UState",
+  "name": "com.robit.u-state",
+  "version": "0.4.1",
+  "unity": "6000.0",
+  "category": "Libraries",
+  "dependencies": {
+    "com.cysharp.unitask": "2.5.10"
+  },
+  "author": {
+    "name": "Robit"
+  }
+}

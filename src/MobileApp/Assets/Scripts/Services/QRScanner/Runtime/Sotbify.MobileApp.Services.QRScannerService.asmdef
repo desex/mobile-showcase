@@ -1,0 +1,23 @@
+{
+    "name": "Sotbify.MobileApp.Services.QRScannerService",
+    "rootNamespace": "Sotbify.MobileApp",
+    "references": [
+        "VContainer",
+        "UniTask",
+        "LitMotion",
+        "R3.Unity",
+        "Sotbify.MobileApp.Common.Collections",
+        "Sotbify.MobileApp.UI.Common",
+        "Sotbify.MobileApp.Db",
+        "Sotbifay.MobileApp.Logger"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

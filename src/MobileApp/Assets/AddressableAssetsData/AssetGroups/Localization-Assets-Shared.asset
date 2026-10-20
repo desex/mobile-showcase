@@ -1,0 +1,299 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-Assets-Shared
+  m_EditorClassIdentifier: 
+  m_GroupName: Localization-Assets-Shared
+  m_GUID: 5511565fcaa6f194a80fd4a0d10ffbf1
+  m_SerializeEntries:
+  - m_GUID: 00886d86c3d86204e9e7b31c00919fb9
+    m_Address: Assets/ResourcesStatic/Settings/Localization/Tables/StabTasks/StabTasks
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0a58055bc019b964bae25379fd52ebf2
+    m_Address: Assets/ResourcesStatic/Settings/Localization/Tables/StabMainView/StabMainView
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0db32d57f5a470c4fbfd654dd0068c45
+    m_Address: Assets/ResourcesStatic/Settings/Localization/Tables/ScanWindow/ScanWindow
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 17c12be686b9b3d4283c6cb613198799
+    m_Address: Assets/ResourcesAddressables/Localization/Tables/RelicsTutorialOverlayView/RelicsTutorialOverlayView
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1ff1659985483b84d9f364202324e6f7
+    m_Address: Assets/ResourcesAddressables/Localization/Tables/ActiveSetTutorialOverlayView/ActiveSetTutorialOverlayView
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 21dec3a323bfaa7419ccdf516ade5bd4
+    m_Address: Assets/ResourcesAddressables/Localization/Tables/CheckPasswordWindow/CheckPasswordWindow
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 25181b25a23545b46a0ea106101b0735
+    m_Address: Assets/ResourcesStatic/Settings/Localization/Tables/NexusHelmet/NexusHelmet
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 274e8cb266e07bf4689621cb11f3007a
+    m_Address: Assets/ResourcesStatic/Settings/Localization/Tables/RelicActiveSet/RelicActiveSet
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 351186e62dfd54f4eb85046f5bbfe3ff
+    m_Address: Assets/ResourcesStatic/Settings/Localization/Tables/ProfileWindow/ProfileWindow
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 38cc4b541a603e64999518dee82d5f41
+    m_Address: Assets/ResourcesStatic/Settings/Localization/Tables/TasksCreatorView/TasksCreatorView
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 405c00a3051505c46ac73e31375dd0a1
+    m_Address: Assets/ResourcesAddressables/Localization/Tables/AllRelicsWindow/AllRelicsWindow
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 48ee5bccbd870ee47bffd64260ba30d1
+    m_Address: Assets/ResourcesStatic/Settings/Localization/Tables/ChooseCharacterWindow/ChooseCharacterWindow
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4e9683c042f50c3428d2116f1ab25171
+    m_Address: Assets/ResourcesAddressables/Localization/Tables/WelcomeTutorialOverlayView/WelcomeTutorialOverlayView
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4fc2d178f913f8649a0da3c38fc30032
+    m_Address: Assets/ResourcesStatic/Settings/Localization/Tables/FAQWindow/FAQWindow
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 51d83fa6a84ea974e839d4cb79e3f493
+    m_Address: Assets/ResourcesAddressables/Localization/Tables/RelicChooseWindow/RelicChooseWindow
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5ca6157d9fc797940b4c34264c446385
+    m_Address: Assets/ResourcesAddressables/Localization/Tables/BonusTutorialOverlayView/BonusTutorialOverlayView
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5f923916d258b9745a13b9e0d02fefbf
+    m_Address: Assets/ResourcesAddressables/Localization/Tables/EHomeItemType/EHomeItemType
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6de0445ebf52b5f45aac02981cc18e1a
+    m_Address: Assets/ResourcesAddressables/Localization/Tables/ChatTutorialOverlayView/ChatTutorialOverlayView
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 77fc5c37ede893e42afb1059487b3f56
+    m_Address: Assets/ResourcesStatic/Settings/Localization/Tables/FeedWindow/FeedWindow
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 78eeb7359794e1741bcf5bb6e82c5998
+    m_Address: Assets/ResourcesStatic/Settings/Localization/Tables/CasinoWindow Shared
+      Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7bb2108265dfa0540a1b31c313e88d37
+    m_Address: Assets/ResourcesStatic/Settings/Localization/Tables/NewsContentWindow/NewsContentWindow
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7e0ebe20637a059469c40da84052a837
+    m_Address: Assets/ResourcesStatic/Settings/Localization/Tables/StabPolicy/StabPolicy
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 892afab2fa241604fa7b6e5734dd14be
+    m_Address: Assets/ResourcesStatic/Settings/Localization/Tables/RelicDescriptionWindow/RelicDescriptionWindow
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8e5a45f19db92754c9606c0ba3b4d9a6
+    m_Address: Assets/ResourcesStatic/Settings/Localization/Tables/Bonuses/BonusesWindow
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 91204a0fc50a4074188f07014355b374
+    m_Address: Assets/ResourcesStatic/Settings/Localization/Tables/DockWindow/DockWindow
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9331defa141ac79409d8dfa328be71c0
+    m_Address: Assets/ResourcesStatic/Settings/Localization/Tables/Tutorial/TutorialWindows
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9d845efc66c85014e8b07e0ebc9d21af
+    m_Address: Assets/ResourcesStatic/Settings/Localization/Tables/MusicView/MusicView
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9fc66d74766a2594cafc534426057015
+    m_Address: Assets/ResourcesStatic/Settings/Localization/Tables/DeletePopupWindow/DeletePopupWindow
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a064da72ffc330a46a73207dccd5cbff
+    m_Address: Assets/ResourcesStatic/Settings/Localization/Tables/HiddenModeWindow/HiddenModeWindow
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a378fb0bf975ba342826e78f867f79a5
+    m_Address: Assets/ResourcesAddressables/Localization/Tables/BonusesMoreTutorialInfo/BonusesMoreTutorialInfo
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a686527c066239a478d585553eb24d6a
+    m_Address: Assets/ResourcesStatic/Settings/Localization/Tables/NotificationCenterWindow/NotificationCenterWindow
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b1e3536148319944998cb93c3831b945
+    m_Address: Assets/ResourcesStatic/Settings/Localization/Tables/TwoFactorWindow/TwoFactorWindow
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b44e096df4e99564b99314b686ba8265
+    m_Address: Assets/ResourcesAddressables/Localization/Tables/RelicListWindow/RelicListWindow
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b6210505f59428a45bc34eba90b8ca26
+    m_Address: Assets/ResourcesAddressables/Localization/Tables/EventsTutorialOverlayView/EventsTutorialOverlayView
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c5feafae07fc3ea428f74a99f334aaf6
+    m_Address: Assets/ResourcesAddressables/Localization/Tables/HomeTutorialOverlayView/HomeTutorialOverlayView
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d1e9e6a083134124d8c2a45232449b5f
+    m_Address: Assets/ResourcesStatic/Settings/Localization/Tables/NewRelicWindow/NewRelicWindow
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d2ba0b2f42d593e4596f208073440815
+    m_Address: Assets/ResourcesStatic/Settings/Localization/Tables/RelicsWindow/RelicsWindow
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d6477b60a172cd3428f5530393753fc7
+    m_Address: Assets/ResourcesStatic/Settings/Localization/Tables/StabDock/StabDock
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: de0e69609988e624b9a488df7fa3eb70
+    m_Address: Assets/ResourcesStatic/Settings/Localization/Tables/PasswordCreationWindow/PasswordCreationWindow
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e1019c13cd3d0274596a8feee6928041
+    m_Address: Assets/ResourcesStatic/Settings/Localization/Tables/FeedWindow/FeedWindow
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e53f7ecf509f99e4789ed4563756c509
+    m_Address: Assets/ResourcesAddressables/Localization/Tables/EBonusType/EBonusType
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eb9695e162893c841a47b41ac38c092b
+    m_Address: Assets/ResourcesAddressables/Localization/Tables/ChatNotificationTutorialOverlayView/ChatNotificationTutorialOverlayView
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ecf538b631a1dde4491abf36c4487940
+    m_Address: Assets/ResourcesAddressables/Localization/Tables/RelicsMoreTutorialInfo/RelicsMoreTutorialInfo
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f19ed1b8e71ea4c1b8b9c01c603d6e66
+    m_Address: Assets/ResourcesStatic/Settings/Localization/Tables/Bonuses/BlackjackWindow/BlackjackWindow
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f3ae936e3cb4f7242902c7260ac86b05
+    m_Address: Assets/ResourcesStatic/Settings/Localization/Tables/ChatWindow/ChatWindow
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f76206ee6b385ad499ca2ff0a0a98b6b
+    m_Address: Assets/ResourcesStatic/Settings/Localization/Tables/GreetingsWindow/GreetingsWindow
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: a531a492de590e2419d23b2b29bc631e, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 73f615e916ccbb242b64a7396213f404, type: 2}
+    - {fileID: 11400000, guid: 012b3c5393675814684074ad49d16a19, type: 2}

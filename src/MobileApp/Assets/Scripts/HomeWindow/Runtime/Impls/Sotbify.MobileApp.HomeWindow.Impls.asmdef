@@ -1,0 +1,41 @@
+{
+    "name": "Sotbify.MobileApp.HomeWindow.Impls",
+    "rootNamespace": "Sotbify.MobileApp",
+    "references": [
+        "UniTask",
+        "Sotbify.MobileApp.UI.Window",
+        "Sotbify.MobileApp.Utils",
+        "VContainer",
+        "Sotbify.MobileApp.Db",
+        "LitMotion",
+        "LitMotion.Extensions",
+        "Sotbify.MobileApp.UI.Common",
+        "R3.Unity",
+        "Unity.TextMeshPro",
+        "LitMotion.Animation",
+        "Sotbify.MobileApp.HomeWindow",
+        "UState",
+        "Sotbify.MobileApp.Analytics",
+        "LeTai.Asset.TranslucentImage",
+        "Sotbifay.MobileApp.Logger",
+        "Sotbify.MobileApp.Services.Browser",
+        "Sotbify.MobileApp.PartnersService",
+        "Sotbify.MobileApp.Common.AssetsProvider",
+        "Sotbify.MobileApp.ItemRenderer",
+        "Sotbify.MobileApp.Assets",
+        "Sotbify.MobileApp.Server",
+        "Sotbify.MobileApp.TextureProvider",
+        "Sotbify.MobileApp.Relic"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [
+        "Sirenix.OdinInspector.Attributes.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

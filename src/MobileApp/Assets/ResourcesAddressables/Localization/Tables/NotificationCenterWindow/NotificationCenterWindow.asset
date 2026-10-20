@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5be51871efa6c3e4eae1703925c8f5ac, type: 3}
+  m_Name: NotificationCenterWindow
+  m_EditorClassIdentifier: 
+  m_SharedTableData: {fileID: 11400000, guid: a686527c066239a478d585553eb24d6a, type: 2}
+  m_Tables:
+  - {fileID: 11400000, guid: 38dcde38b2156af45a360898e43adc1c, type: 2}
+  - {fileID: 11400000, guid: 836668764a5602a4eb70ee85f06e1be3, type: 2}
+  m_Extensions:
+  - rid: 2457945108571226336
+  m_Group: String Table
+  references:
+    version: 2
+    RefIds:
+    - rid: 2457945108571226336
+      type: {class: GoogleSheetsExtension, ns: UnityEditor.Localization.Plugins.Google, asm: Unity.Localization.Editor}
+      data:
+        m_Collection: {fileID: 11400000}
+        m_SheetsServiceProvider: {fileID: 11400000, guid: d6dbac44c41925a4d89d4ee8eda43826, type: 2}
+        m_SpreadsheetId: 1WBySBioCGTvNwZDnf122yZZt8ZMR7qEhp5n45ZfwDRg
+        m_SheetId: 327776421
+        m_Columns:
+        - rid: 2457945108571226338
+        - rid: 2457945108571226339
+        - rid: 2457945108571226340
+        m_RemoveMissingPulledKeys: 1
+    - rid: 2457945108571226338
+      type: {class: KeyColumn, ns: UnityEditor.Localization.Plugins.Google.Columns, asm: Unity.Localization.Editor}
+      data:
+        m_Column: A
+    - rid: 2457945108571226339
+      type: {class: LocaleColumn, ns: UnityEditor.Localization.Plugins.Google.Columns, asm: Unity.Localization.Editor}
+      data:
+        m_Column: B
+        m_LocaleIdentifier:
+          m_Code: en
+        m_IncludeComments: 0
+    - rid: 2457945108571226340
+      type: {class: LocaleColumn, ns: UnityEditor.Localization.Plugins.Google.Columns, asm: Unity.Localization.Editor}
+      data:
+        m_Column: C
+        m_LocaleIdentifier:
+          m_Code: ru
+        m_IncludeComments: 0

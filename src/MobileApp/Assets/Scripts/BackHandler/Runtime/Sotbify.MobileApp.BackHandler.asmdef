@@ -1,0 +1,22 @@
+{
+  "name": "Sotbify.MobileApp.BackHandler",
+  "rootNamespace": "Sotbify.MobileApp",
+  "references": [
+    "VContainer",
+    "Sotbify.MobileApp.Input",
+    "Sotbify.MobileApp.Dock",
+    "Sotbify.MobileApp.ApplicationUI",
+    "Unity.InputSystem",
+    "UState",
+    "Sotbify.MobileApp.Nexus"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

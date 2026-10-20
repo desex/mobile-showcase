@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: a5e0f9ecc5bd641c0b9a6c17fa79ded3
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 337750
+  packageName: 'UI Particle System: Native Canvas VFX'
+  packageVersion: 4.2.0
+  assetPath: Assets/Plugins/UIParticleSystem/Resources/AdditiveBlend.shader
+  uploadId: 996276

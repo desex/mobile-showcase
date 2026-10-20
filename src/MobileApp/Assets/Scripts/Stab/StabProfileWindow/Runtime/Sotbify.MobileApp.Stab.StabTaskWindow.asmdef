@@ -1,0 +1,33 @@
+{
+    "name": "Sotbify.MobileApp.Stab.StabTaskWindow",
+    "rootNamespace": "Sotbify.MobileApp",
+    "references": [
+        "VContainer",
+        "Sotbify.MobileApp.UI.Window",
+        "R3.Unity",
+        "Sotbify.MobileApp.Common.SerializableDictionary",
+        "Sotbify.MobileApp.Common.Preferences",
+        "Sotbify.MobileApp.Utils",
+        "OSA.Core",
+        "Sotbify.MobileApp.Common.OSA",
+        "Unity.TextMeshPro",
+        "UniTask",
+        "Sotbify.MobileApp.Services.Browser",
+        "Sotbify.MobileApp.Db",
+        "Sotbify.MobileApp.RemoteConfig"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "R3.dll",
+        "ObservableCollections.dll",
+        "ObservableCollections.R3.dll",
+        "Newtonsoft.Json.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,28 @@
+{
+    "name": "Sotbify.MobileApp.AllRelicsWindow",
+    "rootNamespace": "Sotbify.MobileApp",
+    "references": [ 
+        "UniTask",
+        "R3.Unity",
+        "LitMotion",
+        "LitMotion.Extensions",
+        "Unity.TextMeshPro",
+        "Unity.Addressables",
+        "Sotbify.MobileApp.UI.Window",
+        "Sotbify.MobileApp.UI.Common",
+        "Sotbifay.MobileApp.Logger",
+        "Sotbify.MobileApp.Common.Preferences"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "R3.dll",
+        "Sirenix.OdinInspector.Attributes.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

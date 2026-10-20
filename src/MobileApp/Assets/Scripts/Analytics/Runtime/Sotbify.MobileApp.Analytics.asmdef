@@ -1,0 +1,25 @@
+{
+    "name": "Sotbify.MobileApp.Analytics",
+    "rootNamespace": "Sotbify.MobileApp",
+    "references": [
+        "Sotbifay.Analytics",
+        "Sotbifay.MobileApp.Logger",
+        "UniTask",
+        "VContainer",
+        "AppMetrica",
+        "Sotbify.MobileApp.Common.Preferences",
+        "Sotbify.MobileApp.Services.PackagesService",
+        "Sotbify.MobileApp.Server"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "Newtonsoft.Json.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

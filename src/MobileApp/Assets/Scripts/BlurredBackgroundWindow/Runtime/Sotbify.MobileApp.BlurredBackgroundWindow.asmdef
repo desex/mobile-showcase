@@ -1,0 +1,21 @@
+{
+    "name": "Sotbify.MobileApp.BlurredBackgroundWindow",
+    "rootNamespace": "Sotbify.MobileApp",
+    "references": [
+        "Sotbify.MobileApp.UI.Window",
+        "VContainer",
+        "LitMotion",
+        "Sotbifay.MobileApp.Logger",
+        "Sotbify.MobileApp.Db",
+        "UniTask"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

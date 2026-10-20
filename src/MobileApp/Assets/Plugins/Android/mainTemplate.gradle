@@ -1,0 +1,137 @@
+apply plugin: 'com.android.library'
+apply from: '../shared/keepUnitySymbols.gradle'
+**APPLY_PLUGINS**
+
+def unityProjectRoot = file('**DIR_UNITYPROJECT**')
+def firebaseAppUnityAar = file('libs/firebase-app-unity-13.6.0.aar')
+def firebaseMessagingUnityAar = file('libs/firebase-messaging-unity-13.6.0.aar')
+def unityPackageCache = new File(unityProjectRoot, 'Library/PackageCache')
+def firebaseAppPackage = unityPackageCache.listFiles()?.find { it.name.startsWith('com.google.firebase.app@') }
+def firebaseMessagingPackage = unityPackageCache.listFiles()?.find { it.name.startsWith('com.google.firebase.messaging@') }
+def firebaseAppUnitySrcAar = firebaseAppPackage == null ? null : new File(firebaseAppPackage, 'Firebase/m2repository/com/google/firebase/firebase-app-unity/13.6.0/firebase-app-unity-13.6.0.srcaar')
+def firebaseMessagingUnitySrcAar = firebaseMessagingPackage == null ? null : new File(firebaseMessagingPackage, 'Firebase/m2repository/com/google/firebase/firebase-messaging-unity/13.6.0/firebase-messaging-unity-13.6.0.srcaar')
+
+if (firebaseAppUnitySrcAar == null || !firebaseAppUnitySrcAar.exists()) {
+    throw new GradleException("Firebase App Unity AAR not found: ${firebaseAppUnitySrcAar}")
+}
+if (firebaseMessagingUnitySrcAar == null || !firebaseMessagingUnitySrcAar.exists()) {
+    throw new GradleException("Firebase Messaging Unity AAR not found: ${firebaseMessagingUnitySrcAar}")
+}
+
+copy {
+    from firebaseAppUnitySrcAar
+    into 'libs'
+    rename { 'firebase-app-unity-13.6.0.aar' }
+}
+copy {
+    from firebaseMessagingUnitySrcAar
+    into 'libs'
+    rename { 'firebase-messaging-unity-13.6.0.aar' }
+}
+
+configurations.configureEach {
+    exclude group: 'com.google.firebase', module: 'firebase-app-unity'
+    exclude group: 'com.google.firebase', module: 'firebase-messaging-unity'
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation files(firebaseAppUnityAar)
+    implementation files(firebaseMessagingUnityAar)
+    // AVPro Video 3.3.4 requires Media3 on Unity 6000.0.45 and newer.
+    implementation 'androidx.media3:media3-common:1.8.0'
+    implementation 'androidx.media3:media3-container:1.8.0'
+    implementation 'androidx.media3:media3-database:1.8.0'
+    implementation 'androidx.media3:media3-datasource:1.8.0'
+    implementation 'androidx.media3:media3-datasource-cronet:1.8.0'
+    implementation 'androidx.media3:media3-datasource-okhttp:1.8.0'
+    implementation 'androidx.media3:media3-decoder:1.8.0'
+    implementation 'androidx.media3:media3-extractor:1.8.0'
+    implementation 'androidx.media3:media3-exoplayer:1.8.0'
+    implementation 'androidx.media3:media3-exoplayer-dash:1.8.0'
+    implementation 'androidx.media3:media3-exoplayer-hls:1.8.0'
+    implementation 'androidx.media3:media3-exoplayer-rtsp:1.8.0'
+    implementation 'androidx.media3:media3-exoplayer-smoothstreaming:1.8.0'
+    implementation 'androidx.media3:media3-exoplayer-workmanager:1.8.0'
+    implementation 'androidx.media3:media3-datasource-rtmp:1.8.0'
+// Android Resolver Dependencies Start
+    implementation 'androidx.annotation:annotation:1.7.1' // Packages/io.appmetrica.analytics/Editor/AppMetricaDependencies.xml:5
+    implementation 'com.google.android.gms:play-services-base:18.9.0' // Packages/com.google.firebase.app/Firebase/Editor/AppDependencies.xml:17
+    implementation 'com.google.firebase:firebase-analytics:23.0.0' // Packages/com.google.firebase.remote-config/Firebase/Editor/RemoteConfigDependencies.xml:15
+    implementation 'com.google.firebase:firebase-app-unity:13.6.0' // Packages/com.google.firebase.app/Firebase/Editor/AppDependencies.xml:22
+    implementation 'com.google.firebase:firebase-common:22.0.1' // Packages/com.google.firebase.app/Firebase/Editor/AppDependencies.xml:13
+    implementation 'com.google.firebase:firebase-config:23.0.1' // Packages/com.google.firebase.remote-config/Firebase/Editor/RemoteConfigDependencies.xml:13
+    implementation 'com.google.firebase:firebase-config-unity:13.6.0' // Packages/com.google.firebase.remote-config/Firebase/Editor/RemoteConfigDependencies.xml:20
+    implementation 'com.google.firebase:firebase-crashlytics-ndk:20.0.3' // Packages/com.google.firebase.crashlytics/Firebase/Editor/CrashlyticsDependencies.xml:13
+    implementation 'com.google.firebase:firebase-crashlytics-unity:13.6.0' // Packages/com.google.firebase.crashlytics/Firebase/Editor/CrashlyticsDependencies.xml:20
+    implementation 'com.google.firebase:firebase-iid:21.1.0' // Packages/com.google.firebase.messaging/Firebase/Editor/MessagingDependencies.xml:17
+    implementation 'com.google.firebase:firebase-messaging:25.0.1' // Packages/com.google.firebase.messaging/Firebase/Editor/MessagingDependencies.xml:13
+    implementation 'com.google.firebase:firebase-messaging-unity:13.6.0' // Packages/com.google.firebase.messaging/Firebase/Editor/MessagingDependencies.xml:24
+    implementation 'com.google.flatbuffers:flatbuffers-java:1.12.0' // Packages/com.google.firebase.messaging/Firebase/Editor/MessagingDependencies.xml:19
+    implementation 'io.appmetrica.analytics:analytics:8.4.1' // Packages/io.appmetrica.analytics/Editor/AppMetricaDependencies.xml:4
+// Android Resolver Dependencies End
+**DEPS**
+}
+
+// Match the dependency compatibility fixes in AVPro's Android postprocessor.
+dependencies.constraints {
+    implementation('com.google.guava:guava') {
+        attributes {
+            attribute(Attribute.of('org.gradle.jvm.environment', String), 'standard-jvm')
+        }
+    }
+}
+configurations.implementation {
+    exclude group: 'io.antmedia', module: 'rtmp-client'
+}
+
+// Android Resolver Exclusions Start
+android {
+  packaging {
+      exclude ('/lib/armeabi/*' + '*')
+      exclude ('/lib/armeabi-v7a/*' + '*')
+      exclude ('/lib/mips/*' + '*')
+      exclude ('/lib/mips64/*' + '*')
+      exclude ('/lib/x86/*' + '*')
+      exclude ('/lib/x86_64/*' + '*')
+  }
+}
+// Android Resolver Exclusions End
+android {
+    namespace "com.unity3d.player"
+    ndkPath "**NDKPATH**"
+    ndkVersion "**NDKVERSION**"
+
+    compileSdk **APIVERSION**
+    buildToolsVersion = "**BUILDTOOLS**"
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    defaultConfig {
+        minSdk **MINSDK**
+        targetSdk **TARGETSDK**
+        ndk {
+            abiFilters **ABIFILTERS**
+            debugSymbolLevel **DEBUGSYMBOLLEVEL**
+        }
+        versionCode **VERSIONCODE**
+        versionName '**VERSIONNAME**'
+        consumerProguardFiles 'proguard-unity.txt'**USER_PROGUARD**
+**DEFAULT_CONFIG_SETUP**
+    }
+
+    lint {
+        abortOnError false
+    }
+
+    androidResources {
+        noCompress = **BUILTIN_NOCOMPRESS** + unityStreamingAssets.tokenize(', ')
+        ignoreAssetsPattern = "!.svn:!.git:!.ds_store:!*.scc:!CVS:!thumbs.db:!picasa.ini:!*~"
+    }**PACKAGING**
+}
+**IL_CPP_BUILD_SETUP**
+**SOURCE_BUILD_SETUP**
+**EXTERNAL_SOURCES**

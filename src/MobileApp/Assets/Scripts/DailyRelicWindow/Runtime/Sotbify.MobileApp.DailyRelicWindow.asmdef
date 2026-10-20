@@ -1,0 +1,32 @@
+{
+    "name": "Sotbify.MobileApp.DailyRelicWindow",
+    "rootNamespace": "Sotbify.MobileApp",
+    "references": [
+        "VContainer",
+        "UniTask",
+        "Sotbify.MobileApp.UI.Window",
+        "LitMotion.Animation",
+        "R3.Unity",
+        "Unity.TextMeshPro",
+        "Sotbify.MobileApp.Utils",
+        "Sotbify.MobileApp.Db",
+        "Sotbify.MobileApp.ItemRenderer",
+        "Sotbify.MobileApp.Assets",
+        "Unity.Addressables",
+        "Sotbifay.MobileApp.Logger",
+        "Sotbify.MobileApp.Server"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "R3.dll",
+        "ObservableCollections.dll",
+        "ObservableCollections.R3.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

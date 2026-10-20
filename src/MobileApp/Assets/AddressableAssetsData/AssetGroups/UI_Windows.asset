@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: UI_Windows
+  m_EditorClassIdentifier: 
+  m_GroupName: UI_Windows
+  m_GUID: 57b9c7ce872a97941a561b5edd978ffd
+  m_SerializeEntries:
+  - m_GUID: 13a7ba2231306794b94f1dde36ca99bf
+    m_Address: NewsContentWindow
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ac89212dd7465ff44984a980a8b01767
+    m_Address: ScanWindowView
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ca8c3e00a0c53b341bac37b6174af7f2
+    m_Address: FeatureWindowView
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ccfbd605f4dc50748a852212354ea335
+    m_Address: GreetingsWindowView
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: a531a492de590e2419d23b2b29bc631e, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 264172f24b4e9bf48a1691b414c352d0, type: 2}
+    - {fileID: 11400000, guid: f35c4bd39b9393c41b1b992bb509071b, type: 2}

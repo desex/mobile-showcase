@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: TutorialWindows
+  m_EditorClassIdentifier: 
+  m_GroupName: TutorialWindows
+  m_GUID: e2ec217314f5f7a4fbf677b956210e5c
+  m_SerializeEntries:
+  - m_GUID: 18646e01d2d74414db83cf7f03355929
+    m_Address: WelcomeTutorialOverlayView
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 24bfd3e77f2522542b0676f8b9292e39
+    m_Address: TutorialOverlay
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 44323a4fd0ddd48479a360d0295447b5
+    m_Address: RelicsMoreTutorialInfoView
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b1fea37e25554aa4db3bbd4b0a93290c
+    m_Address: ActiveSetTutorialOverlayView
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b3744df31e7842741ab4b31d8d4eb2f1
+    m_Address: BonusTutorialOverlayView
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bbc9ca90cc768cd4290c2629da087cad
+    m_Address: HomeTutorialOverlayView
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c195464e2e6122c4db52d5cd39a0421a
+    m_Address: ChatTutorialOverlayView
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dd2f1fd387c417e45ab4f129601a1325
+    m_Address: RelicsTutorialOverlayView
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e64526fa967632b40baa2d998d675bbf
+    m_Address: BonusesMoreTutorialInfoView
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e7799f163a802df40a20627981f003a1
+    m_Address: EventsTutorialOverlayView
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fc53a9746175ef14ba411f1a50618024
+    m_Address: ChatNotificationTutorialOverlayView
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: a531a492de590e2419d23b2b29bc631e, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 97b70b6d33a5c3741832d415a60ff9e1, type: 2}
+    - {fileID: 11400000, guid: 9055c86de772c19439b128a5ce79b5d5, type: 2}

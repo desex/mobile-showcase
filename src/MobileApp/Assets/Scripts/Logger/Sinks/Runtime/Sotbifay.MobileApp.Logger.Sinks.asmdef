@@ -1,0 +1,18 @@
+﻿{
+  "name": "Sotbifay.MobileApp.Logger.Sinks",
+  "rootNamespace": "Sotbifay.MobileApp",
+  "references": [
+    "Sotbifay.MobileApp.Logger",
+    "AppMetrica",
+    "Sotbify.MobileApp.FirebaseCrashlyticsService"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": true,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

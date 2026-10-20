@@ -1,0 +1,25 @@
+{
+    "name": "Sotbifay.MobileApp.CounterCircle",
+    "rootNamespace": "Sotbifay.MobileApp",
+    "references": [
+        "Sotbify.MobileApp.UI.Common",
+        "LitMotion",
+        "UniTask",
+        "Sotbify.MobileApp.Utils",
+        "Sotbifay.MobileApp.SnapScroll",
+        "LitMotion.Extensions",
+        "Unity.TextMeshPro"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "R3.dll",
+        "Sirenix.OdinInspector.Attributes.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,16 @@
+{
+    "name": "Sotbify.MobileApp.FirebaseCrashlyticsService",
+    "rootNamespace": "Sotbify.MobileApp",
+    "references": [
+        "UniTask"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

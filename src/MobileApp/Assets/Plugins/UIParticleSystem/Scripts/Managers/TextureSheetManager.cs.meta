@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 937a61d2aeb2d6a4f9893b80577f6080
+AssetOrigin:
+  serializedVersion: 1
+  productId: 337750
+  packageName: 'UI Particle System: Native Canvas VFX'
+  packageVersion: 4.2.0
+  assetPath: Assets/Plugins/UIParticleSystem/Scripts/Managers/TextureSheetManager.cs
+  uploadId: 996276

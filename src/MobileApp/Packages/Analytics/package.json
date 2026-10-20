@@ -1,0 +1,13 @@
+{
+  "displayName": "Sotbifay Analytics",
+  "name": "com.sotbifay.analytics",
+  "version": "2.0.1",
+  "unity": "6000.0",
+  "category": "Libraries",
+  "dependencies": {
+    "com.cysharp.unitask": "2.5.10"
+  },
+  "author": {
+    "name": "Sotbifay"
+  }
+}

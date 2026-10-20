@@ -1,0 +1,31 @@
+{
+    "name": "Sotbify.MobileApp.UI.Common",
+    "rootNamespace": "Sotbify.MobileApp",
+    "references": [
+        "LitMotion",
+        "LitMotion.Extensions",
+        "UnityEngine.UI",
+        "Unity.TextMeshPro",
+        "R3.Unity",
+        "Unity.InputSystem",
+        "UniTask",
+        "VContainer",
+        "Sotbifay.MobileApp.Logger",
+        "Sotbify.MobileApp.Utils",
+        "OSA.Core",
+        "Sotbify.MobileApp.Common.OSA",
+        "Sotbify.MobileApp.ServerConstConverter",
+        "Sotbify.MobileApp.Services.Browser",
+        "Coffee.UIEffect",
+        "Sotbify.MobileApp.Localization"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

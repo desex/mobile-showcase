@@ -1,0 +1,26 @@
+{
+    "name": "Sotbify.MobileApp.GlassesWindow",
+    "rootNamespace": "Sotbify.MobileApp",
+    "references": [
+        "Sotbify.MobileApp.UI.Window",
+        "VContainer",
+        "LitMotion",
+        "R3.Unity",
+        "UniTask",
+        "Sotbify.MobileApp.Utils",
+        "Sotbify.MobileApp.Db",
+        "Sotbify.MobileApp.Services.QRScannerService",
+        "Sotbify.MobileApp.UI.Common",
+        "LitMotion.Extensions",
+        "Sotbifay.MobileApp.Logger"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

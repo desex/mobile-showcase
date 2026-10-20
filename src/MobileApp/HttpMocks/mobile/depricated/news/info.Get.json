@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "type": "app-news",
+    "count": 10,
+  },
+  {
+    "id": 2,
+    "type": "project-news",
+    "count": 2,
+  },
+  {
+    "id": 3,
+    "type": "bonus",
+    "count": 2,
+  },
+]

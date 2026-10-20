@@ -1,0 +1,14 @@
+{
+    "name": "Sotbify.MobileApp.Plugins.KeyboardHeight",
+    "rootNamespace": "Sotbify.MobileApp",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

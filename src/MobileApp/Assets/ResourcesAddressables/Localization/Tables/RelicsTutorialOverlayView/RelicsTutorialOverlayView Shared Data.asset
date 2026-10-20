@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: RelicsTutorialOverlayView Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: RelicsTutorialOverlayView
+  m_TableCollectionNameGuidString: 17c12be686b9b3d4283c6cb613198799
+  m_Entries:
+  - m_Id: 1385846040158208
+    m_Key: header.text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1386837300994048
+    m_Key: "description.text\t"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1727350256427008
+    m_Key: fine.button
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1727424315252736
+    m_Key: more.button
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1727562928611328
+    m_Key: close.button
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2124841892175872
+    m_Key: goToActiveSetHeader.text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2124921726558208
+    m_Key: goToActiveSetDescription.text
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 1543239529053290593
+  references:
+    version: 2
+    RefIds:
+    - rid: 1543239529053290593
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1791465419092

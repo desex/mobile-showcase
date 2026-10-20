@@ -1,0 +1,41 @@
+{
+    "name": "Sotbify.MobileApp.RelicChooseWindow",
+    "rootNamespace": "Sotbify.MobileApp",
+    "references": [
+        "VContainer",
+        "UniTask",
+        "Sotbify.MobileApp.UI.Window",
+        "R3.Unity",
+        "Unity.TextMeshPro",
+        "Sotbify.MobileApp.Utils",
+        "LitMotion",
+        "LitMotion.Extensions",
+        "LitMotion.Animation",
+        "OSA.Core",
+        "Sotbify.MobileApp.Db",
+        "Sotbify.MobileApp.ItemRenderer",
+        "Sotbify.MobileApp.Assets",
+        "Unity.Addressables",
+        "Sotbifay.MobileApp.Logger",
+        "Sotbify.MobileApp.Common.OSA",
+        "Sotbify.MobileApp.Server",
+        "Sotbify.MobileApp.RelicsDescriptionWindow",
+        "Sotbify.MobileApp.TextureProvider",
+        "Sotbify.MobileApp.Relic",
+        "Sotbify.MobileApp.Localization"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "R3.dll",
+        "ObservableCollections.dll",
+        "ObservableCollections.R3.dll",
+        "Sirenix.OdinInspector.Attributes.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

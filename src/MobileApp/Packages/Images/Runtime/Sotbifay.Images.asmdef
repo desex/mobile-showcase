@@ -1,0 +1,32 @@
+{
+    "name": "Sotbifay.Images",
+    "rootNamespace": "Sotbifay.Images",
+    "references": [
+        "UniTask",
+        "Gilzoide.SqliteNet",
+        "R3.Unity",
+        "VContainer"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "R3.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.cysharp.r3",
+            "expression": "1.3",
+            "define": "R3_SUPPORT"
+        },
+        {
+            "name": "jp.hadashikick.vcontainer",
+            "expression": "1.17",
+            "define": "VCONTAINER_SUPPORT"
+        }
+    ],
+    "noEngineReferences": false
+}
