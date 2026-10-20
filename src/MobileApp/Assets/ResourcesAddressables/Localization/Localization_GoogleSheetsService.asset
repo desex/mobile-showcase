@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Localization_GoogleSheetsService
   m_EditorClassIdentifier: 
   m_ApiKey: 
-  m_ClientId: 598030944031-vs36klb8ep1hhv8p3l702qi5d9gb54fs.apps.googleusercontent.com
-  m_ClientSecret: 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
+  m_ClientId: MOCK_GOOGLE_OAUTH_CLIENT_ID
+  m_ClientSecret: MOCK_GOOGLE_OAUTH_CLIENT_SECRET
   m_AuthenticationType: 1
   m_ApplicationName: MobileApp
   m_NewSheetProperties:
